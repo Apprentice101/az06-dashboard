@@ -1,0 +1,116 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-06-10",
+  "updatedAt": "2026-06-10T22:00:00Z",
+  "exportedAt": "2026-06-10T22:00:00Z",
+  "data": {
+    "DISTRICT": {
+      "id": "az-06",
+      "name": "AZ-06 (US Congressional District)",
+      "state": "Arizona",
+      "counties": [
+        "Pima (eastern)",
+        "Cochise",
+        "Graham",
+        "Greenlee",
+        "Pinal (parts)"
+      ]
+    },
+    "UPDATES": [],
+    "CONFLICTS": [],
+    "NEWS": [
+      {
+        "headline": "USPS proposes rule requiring states to share voter lists for mail-in ballots",
+        "sourceName": "KGUN 9 Tucson News",
+        "url": "https://www.kgun9.com/politics/usps-proposes-rule-requiring-states-to-share-voter-lists-for-mail-in-ballots",
+        "publishedAt": "2026-06-10",
+        "relevanceSummary": "The U.S. Postal Service proposed rules requiring states to provide voter eligibility lists before processing mail-in ballots, following Trump's March 2026 executive order on voter list sharing. AZ-06 voters \u2014 who rely heavily on mail ballots in Pima, Cochise, Graham, Greenlee, and Pinal counties \u2014 could face disruptions to mail ballot delivery if the rule is finalized before the July 21 primary, though ongoing lawsuits may delay implementation.",
+        "tag": "rule-change",
+        "id": "news-2026-0610-az-06-01",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Special prosecutor investigating Maricopa County Recorder employees",
+        "sourceName": "Phoenix New Times (via Votebeat)",
+        "url": "https://www.phoenixnewtimes.com/news/special-prosecutor-maricopa-county-recorder-workers-40673318/",
+        "publishedAt": "2026-06-09",
+        "relevanceSummary": "A special prosecutor is investigating whether Maricopa County Recorder Justin Heap's staff illegally seized a ballot scanner and provisional ballot envelopes during a Tempe election count, with a criminal referral submitted just weeks before early ballots mail out for the July 21 primary. While AZ-06 sits outside Maricopa County's core, the Heap-board dispute introduces uncertainty about statewide primary administration as Arizona's primary season opens \u2014 and Heap has separately threatened felony charges against poll workers over drop-box locations in the upcoming primary.",
+        "tag": "administration",
+        "id": "news-2026-0610-az-06-02",
+        "reviewState": "new"
+      },
+      {
+        "headline": "With 2026 Midterms approaching fast, here are the races you need to watch",
+        "sourceName": "Quiver Quantitative",
+        "url": "https://www.quiverquant.com/news/With+2026+Midterms+approaching+fast,+here+are+the+races+you+need+to+watch",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "AZ-06 is rated a toss-up and flagged as one of the most-watched 2026 midterm races, with spending neck-and-neck between incumbent Republican Juan Ciscomani and DCCC-backed Democrat JoAnna Mendoza, who has raised over $5.3 million. Ciscomani's campaign has received nearly $2 million from crypto super PAC Fairshake, while Mendoza draws from ActBlue and a slate of progressive endorsers; both of Ciscomani's prior wins came by razor-thin margins.",
+        "tag": "primary",
+        "id": "news-2026-0610-az-06-03",
+        "reviewState": "new"
+      },
+      {
+        "headline": "$75 buys you 300 words \u2014 and an audience of 4 million Arizona voters",
+        "sourceName": "Arizona Capitol Times",
+        "url": "https://azcapitoltimes.com/news/2026/06/08/75-buys-you-300-words-and-an-audience-of-4-million-arizona-voters/",
+        "publishedAt": "2026-06-08",
+        "relevanceSummary": "Arizona voters have until 5 p.m. on June 24 to submit $75 ballot-pamphlet arguments about the 20-plus November referenda still pending at the Legislature, including voting-ID requirements, early-ballot return deadlines, and redistricting measures that could affect AZ-06's boundaries. AZ-06 constituents in Pima, Cochise, Graham, Greenlee, and Pinal counties will receive the mailed ballot pamphlet and can weigh in at ballotarguments.az.gov before the deadline.",
+        "tag": "voter-resource",
+        "id": "news-2026-0610-az-06-04",
+        "reviewState": "new"
+      },
+      {
+        "headline": "Arizona Supreme Court won't overturn judge's ruling to send 'fake elector' case back to grand jury",
+        "sourceName": "KJZZ",
+        "url": "https://www.kjzz.org/politics/2026-06-04/arizona-supreme-court-wont-overturn-judges-ruling-to-send-fake-elector-case-back-to-grand-jury",
+        "publishedAt": "2026-06-04",
+        "relevanceSummary": "The Arizona Supreme Court declined to review a lower-court ruling that effectively reset AG Kris Mayes' 2020 fake-electors prosecution \u2014 which names figures including state Sen. Jake Hoffman \u2014 forcing the case back to a grand jury with the 2026 AG election looming. For AZ-06 voters, the ruling prolongs a high-profile election-integrity case that Arizona Republicans have used to argue political 'lawfare,' shaping the broader election-confidence debate heading into the July 21 primary.",
+        "tag": "litigation",
+        "id": "news-2026-0610-az-06-05",
+        "reviewState": "new"
+      },
+      {
+        "headline": "DOJ prepares to appeal Arizona ruling keeping voter records confidential",
+        "sourceName": "Arizona Capitol Times",
+        "url": "https://azcapitoltimes.com/news/2026/06/04/doj-prepares-to-appeal-arizona-ruling-keeping-voter-records-confidential/",
+        "publishedAt": "2026-06-04",
+        "relevanceSummary": "The Trump DOJ filed to appeal a federal judge's ruling that blocked it from accessing Arizona's 4.3 million voter registration records, including protected data like partial Social Security numbers and signatures; Secretary of State Adrian Fontes called it 'political theater.' AZ-06 voters across Pima, Cochise, Graham, Greenlee, and Pinal counties are among those whose private registration data is at the center of the federal-state standoff headed to the 9th Circuit.",
+        "tag": "litigation",
+        "id": "news-2026-0610-az-06-06",
+        "reviewState": "new"
+      }
+    ],
+    "SOURCES": [],
+    "ELECTION_EVENTS": [],
+    "RULES": [],
+    "RESOURCES": [],
+    "LAST_REFRESH": {
+      "id": "run-2026-06-10T22-00-00-az-06",
+      "startedAt": "2026-06-10T21:59:30.000Z",
+      "completedAt": "2026-06-10T22:00:00Z",
+      "triggerType": "manual",
+      "sourcesChecked": 13,
+      "updatesCreated": 0,
+      "conflictsCreated": 0,
+      "errors": [],
+      "summary": "AZ-06 weekly refresh on 2026-06-10. Status: Arizona primary, 41 days out. Incumbent: Rep. Juan Ciscomani (R); opponent: DCCC-backed Democrat JoAnna Mendoza. Six new news items added covering the past week (Jun 3-10). AZ-06 primary is 41 days out. Dominant statewide story this week is the USPS proposed rule requiring states to share voter lists for mail-in ballots, which would directly affect AZ-06's heavily mail-voting counties. Maricopa Recorder Heap-Board dispute continues to escalate but sits outside the district's core counties. Procedural rules and election-event dates unchanged from the bundle baseline; all news items routed to the human-review queue for editor confirmation."
+    },
+    "NEXT_REFRESH_AT": "2026-06-12T22:00:00Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-2026-w24-az-06",
+      "periodStart": "2026-06-08",
+      "periodEnd": "2026-06-14",
+      "sourcesChecked": 13,
+      "newUpdates": 0,
+      "conflictsCreated": 0,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 6,
+      "needsReview": 6,
+      "sourceErrors": 0,
+      "summary": "AZ-06 primary is 41 days out. Dominant statewide story this week is the USPS proposed rule requiring states to share voter lists for mail-in ballots, which would directly affect AZ-06's heavily mail-voting counties. Maricopa Recorder Heap-Board dispute continues to escalate but sits outside the district's core counties.",
+      "generatedAt": "2026-06-10T22:00:00Z"
+    }
+  }
+}
