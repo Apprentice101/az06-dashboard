@@ -111,6 +111,8 @@
       "sourceErrors": 0,
       "summary": "AZ-06 primary is 41 days out. Dominant statewide story this week is the USPS proposed rule requiring states to share voter lists for mail-in ballots, which would directly affect AZ-06's heavily mail-voting counties. Maricopa Recorder Heap-Board dispute continues to escalate but sits outside the district's core counties.",
       "generatedAt": "2026-06-10T22:00:00Z"
-    }
-  }
+    },
+    "districtNumber": "AZ-06"
+  },
+  "districtCode": "AZ-06"
 }
