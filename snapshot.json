@@ -1,118 +1,926 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-10",
-  "updatedAt": "2026-06-10T22:00:00Z",
-  "exportedAt": "2026-06-10T22:00:00Z",
+  "dataAsOf": "2026-06-02",
+  "updatedAt": "2026-06-02T21:45:00Z",
+  "exportedAt": "2026-06-15T19:44:05.811Z",
+  "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
       "id": "az-06",
-      "name": "AZ-06 (US Congressional District)",
+      "districtNumber": "AZ-06",
+      "districtName": "Arizona's 6th Congressional District",
       "state": "Arizona",
       "counties": [
-        "Pima (eastern)",
+        "Pima",
         "Cochise",
         "Graham",
         "Greenlee",
-        "Pinal (parts)"
-      ]
+        "Pinal (partial)"
+      ],
+      "majorPlaces": [
+        "Oro Valley",
+        "Sierra Vista",
+        "Safford",
+        "Green Valley",
+        "Clifton"
+      ],
+      "cycleYear": 2026,
+      "population": 760688,
+      "registeredVoters": 481000,
+      "partyRegistration": [
+        {
+          "label": "Republican",
+          "count": 187600,
+          "pct": 39
+        },
+        {
+          "label": "Other / Independent",
+          "count": 168300,
+          "pct": 35
+        },
+        {
+          "label": "Democratic",
+          "count": 115400,
+          "pct": 24
+        },
+        {
+          "label": "Libertarian",
+          "count": 9700,
+          "pct": 2
+        }
+      ],
+      "previousResult": {
+        "year": 2024,
+        "seat": "U.S. House — AZ-06",
+        "winner": {
+          "name": "Juan Ciscomani (R)",
+          "pct": 50.8,
+          "votes": 162000
+        },
+        "runnerUp": {
+          "name": "Kirsten Engel (D)",
+          "pct": 49.2,
+          "votes": 157000
+        },
+        "turnoutPct": 72.1
+      }
     },
-    "UPDATES": [],
-    "CONFLICTS": [],
+    "SOURCES": {
+      "src-az-sos-elections": {
+        "id": "src-az-sos-elections",
+        "name": "AZ Secretary of State — Elections",
+        "short": "AZ SOS Elections",
+        "url": "https://azsos.gov/elections",
+        "publisher": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-az-sos-early-voting": {
+        "id": "src-az-sos-early-voting",
+        "name": "AZ Secretary of State — Early Voting & Mail Ballot",
+        "short": "AZ Early Voting",
+        "url": "https://azsos.gov/elections/voters/early-voting",
+        "publisher": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-az-voter-portal": {
+        "id": "src-az-voter-portal",
+        "name": "My Arizona Vote — Statewide Voter Portal",
+        "short": "AZ Voter Portal",
+        "url": "https://my.arizona.vote",
+        "publisher": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-az-sos-register": {
+        "id": "src-az-sos-register",
+        "name": "AZ Secretary of State — Registering to Vote",
+        "short": "AZ SOS Register",
+        "url": "https://azsos.gov/elections/voters/registering-vote",
+        "publisher": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-cochise-elections": {
+        "id": "src-cochise-elections",
+        "name": "Cochise County — Elections",
+        "short": "Cochise Elections",
+        "url": "https://www.cochise.az.gov/292/Elections",
+        "publisher": "Cochise County Recorder & Elections",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pima-elections": {
+        "id": "src-pima-elections",
+        "name": "Pima County — Elections",
+        "short": "Pima Elections",
+        "url": "https://www.pima.gov/394/Elections",
+        "publisher": "Pima County Elections Department",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-pima-vote": {
+        "id": "src-pima-vote",
+        "name": "Pima County — Voter Portal (pima.vote)",
+        "short": "pima.vote",
+        "url": "https://pima.vote",
+        "publisher": "Pima County Elections Department",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-graham-recorder": {
+        "id": "src-graham-recorder",
+        "name": "Graham County — Recorder (Elections)",
+        "short": "Graham Recorder",
+        "url": "https://www.graham.az.gov/239/Recorder",
+        "publisher": "Graham County Recorder",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium"
+      },
+      "src-greenlee-elections": {
+        "id": "src-greenlee-elections",
+        "name": "Greenlee County — Elections",
+        "short": "Greenlee Elections",
+        "url": "https://greenlee.az.gov/ova_dep/elections/",
+        "publisher": "Greenlee County Elections",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium"
+      },
+      "src-pinal-recorder": {
+        "id": "src-pinal-recorder",
+        "name": "Pinal County — Recorder (Elections & Voter Registration)",
+        "short": "Pinal Recorder",
+        "url": "https://www.pinal.gov/810/Recorder",
+        "publisher": "Pinal County Recorder",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium"
+      },
+      "src-az-hb2492-scotus": {
+        "id": "src-az-hb2492-scotus",
+        "name": "Voting Rights Lab — SCOTUS Watch (RNC v. Mi Familia Vota)",
+        "short": "Voting Rights Lab",
+        "url": "https://votingrightslab.org/report/https-votingrightslab-org-report-whats-at-stake-for-elections-at-the-supreme-court/",
+        "publisher": "Voting Rights Lab",
+        "sourceType": "advocacy",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium",
+        "notes": "Tracks SCOTUS proof-of-citizenship case (AZ HB 2492). Decision could affect 2026 voter reg rules."
+      },
+      "src-az-irc": {
+        "id": "src-az-irc",
+        "name": "Arizona Independent Redistricting Commission",
+        "short": "AZ IRC",
+        "url": "https://irc.az.gov/maps",
+        "publisher": "Arizona Independent Redistricting Commission",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-az-clean-elections": {
+        "id": "src-az-clean-elections",
+        "name": "AZ Clean Elections Commission — Ballot by Mail",
+        "short": "AZ Clean Elections",
+        "url": "https://www.azcleanelections.gov/voting-methods/ballot-by-mail",
+        "publisher": "Arizona Citizens Clean Elections Commission",
+        "sourceType": "official-state",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-az-statutes-elex": {
+        "id": "src-az-statutes-elex",
+        "name": "Arizona Revised Statutes — Title 16 (Elections)",
+        "short": "ARS Title 16",
+        "url": "https://www.azleg.gov/arstitle/",
+        "publisher": "Arizona Legislature",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "high"
+      },
+      "src-ballotpedia-az06": {
+        "id": "src-ballotpedia-az06",
+        "name": "Ballotpedia — Arizona's 6th Congressional District",
+        "short": "Ballotpedia AZ-06",
+        "url": "https://ballotpedia.org/Arizona%27s_6th_Congressional_District",
+        "publisher": "Ballotpedia",
+        "sourceType": "third-party",
+        "hierarchyLevel": 4,
+        "dateAccessed": "2026-05-26",
+        "lastVerified": "2026-05-26",
+        "confidence": "medium"
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "ev-primary-reg-deadline",
+        "milestone": "Voter registration deadline",
+        "type": "registration",
+        "electionType": "primary",
+        "date": "2026-06-22",
+        "significance": "Last day to register to vote in the AZ July 21 primary.",
+        "authority": "Arizona Secretary of State",
+        "sourceIds": [
+          "src-az-sos-register",
+          "src-az-voter-portal"
+        ],
+        "confidence": "high",
+        "status": "upcoming",
+        "notes": "Must be received or postmarked by June 22, 2026 (29 days before election)."
+      },
+      {
+        "id": "ev-primary-early-start",
+        "milestone": "Early voting begins",
+        "type": "voting-window-start",
+        "electionType": "primary",
+        "date": "2026-06-24",
+        "significance": "Mail ballots delivered to Active Early Voters List (AEVL). In-person early voting opens at county recorders.",
+        "authority": "County Recorders (Pima, Cochise, Graham, Greenlee, Pinal)",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-pima-elections",
+          "src-cochise-elections"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-primary-mail-request",
+        "milestone": "Mail ballot request deadline",
+        "type": "mail-request",
+        "electionType": "primary",
+        "date": "2026-07-10",
+        "significance": "Last day to request a mail ballot for the primary.",
+        "authority": "Arizona Secretary of State / County Recorders",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-voter-portal"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-primary-early-end",
+        "milestone": "Last day of in-person early voting",
+        "type": "voting-window-end",
+        "electionType": "primary",
+        "date": "2026-07-17",
+        "significance": "Last day to vote in-person early at county recorder offices before Election Day.",
+        "authority": "County Recorders",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-pima-vote"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-primary-day",
+        "milestone": "Primary election day",
+        "type": "election-day",
+        "electionType": "primary",
+        "date": "2026-07-21",
+        "significance": "Arizona statewide primary. Polls open 6 AM – 7 PM local time.",
+        "authority": "Arizona Secretary of State",
+        "sourceIds": [
+          "src-az-sos-elections",
+          "src-az-voter-portal"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-primary-receipt",
+        "milestone": "Mail ballot receipt deadline",
+        "type": "mail-receipt",
+        "electionType": "primary",
+        "date": "2026-07-21",
+        "significance": "Mail ballot must be physically RECEIVED by county recorder by 7:00 PM. Postmarks do not count.",
+        "authority": "Arizona Secretary of State / County Recorders",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-cochise-elections"
+        ],
+        "confidence": "high",
+        "status": "upcoming",
+        "notes": "Arizona does NOT accept postmarks — ballot must be in hand at recorder by 7:00 PM on election day."
+      },
+      {
+        "id": "ev-primary-cure",
+        "milestone": "Ballot signature cure deadline",
+        "type": "cure-deadline",
+        "electionType": "primary",
+        "date": "2026-07-26",
+        "significance": "Cure missing or mismatched signatures on returned mail ballots (5 business days after election).",
+        "authority": "Arizona Secretary of State / County Recorders",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-statutes-elex"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-general-reg-deadline",
+        "milestone": "Voter registration deadline",
+        "type": "registration",
+        "electionType": "general",
+        "date": "2026-10-05",
+        "significance": "Last day to register to vote before the November 3 general election.",
+        "authority": "Arizona Secretary of State",
+        "sourceIds": [
+          "src-az-sos-register",
+          "src-az-voter-portal"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-general-early-start",
+        "milestone": "Early voting begins",
+        "type": "voting-window-start",
+        "electionType": "general",
+        "date": "2026-10-07",
+        "significance": "Mail ballots sent to AEVL. In-person early voting opens at county recorders.",
+        "authority": "County Recorders (Pima, Cochise, Graham, Greenlee, Pinal)",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-pima-elections"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-general-mail-request",
+        "milestone": "Mail ballot request deadline",
+        "type": "mail-request",
+        "electionType": "general",
+        "date": "2026-10-23",
+        "significance": "Last day to request a mail ballot for the general election.",
+        "authority": "Arizona Secretary of State / County Recorders",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-voter-portal"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-general-early-end",
+        "milestone": "Last day of in-person early voting",
+        "type": "voting-window-end",
+        "electionType": "general",
+        "date": "2026-10-30",
+        "significance": "Last day to vote in-person early at county recorder offices before the general election.",
+        "authority": "County Recorders",
+        "sourceIds": [
+          "src-az-sos-early-voting"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-general-day",
+        "milestone": "General election day",
+        "type": "election-day",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "U.S. midterm general election. Polls open 6 AM – 7 PM local time.",
+        "authority": "Arizona Secretary of State",
+        "sourceIds": [
+          "src-az-sos-elections"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-general-receipt",
+        "milestone": "Mail ballot receipt deadline",
+        "type": "mail-receipt",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "Mail ballot must be physically RECEIVED by county recorder by 7:00 PM. Postmarks do not count.",
+        "authority": "Arizona Secretary of State / County Recorders",
+        "sourceIds": [
+          "src-az-sos-early-voting"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      },
+      {
+        "id": "ev-general-cure",
+        "milestone": "Ballot signature cure deadline",
+        "type": "cure-deadline",
+        "electionType": "general",
+        "date": "2026-11-08",
+        "significance": "Cure missing or mismatched signatures on returned mail ballots (5 business days after general election).",
+        "authority": "Arizona Secretary of State / County Recorders",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-statutes-elex"
+        ],
+        "confidence": "high",
+        "status": "upcoming"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-az06-registration",
+        "topic": "Registration requirements",
+        "currentRule": "Online, mail, or in-person registration. Must be a U.S. citizen, AZ resident, 18+ by election day. Registration deadline is 29 days before the election.",
+        "status": "active",
+        "whyItMatters": "Determines who can cast a ballot in AZ-06. Voters must register with their county recorder — Pima, Cochise, Graham, Greenlee, or Pinal.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-sos-register",
+          "src-pima-elections"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "detail": "Primary registration deadline: June 22, 2026. General registration deadline: October 5, 2026. Voters can register online if they have an AZ driver license or state ID."
+      },
+      {
+        "id": "rule-az06-poc",
+        "topic": "Proof of citizenship",
+        "currentRule": "Documentary proof of citizenship required to vote a full ballot in state and local races. SCOTUS partial stay on HB 2492 granted May 10, 2026 — status for the Oct 5 general registration deadline is unresolved.",
+        "status": "watch",
+        "whyItMatters": "Federal-only voters who lack documentary proof receive a restricted federal-only ballot. Monitor closely through summer 2026 as SCOTUS considers the case.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-hb2492-scotus",
+          "src-az-statutes-elex"
+        ],
+        "confidence": "low",
+        "lastVerified": "2026-05-26",
+        "needsReview": true,
+        "detail": "RNC v. Mi Familia Vota. 9th Circuit had struck down HB 2492; SCOTUS granted partial stay. Cert petition responses due May 26. Affects all AZ-06 counties equally."
+      },
+      {
+        "id": "rule-az06-id",
+        "topic": "Voter ID at the polls",
+        "currentRule": "Photo ID or two non-photo IDs with name and address. Out-of-precinct voters cast a provisional ballot. AZ-06 counties use precinct-based voting, not vote centers.",
+        "status": "active",
+        "whyItMatters": "Affects in-person eligibility. Provisional ballots cast in the wrong precinct may not be counted for all races.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-sos-elections",
+          "src-pima-elections"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-az06-vbm",
+        "topic": "Vote by mail",
+        "currentRule": "Open vote-by-mail. Any registered voter may request a mail ballot for a single election through their county recorder.",
+        "status": "active",
+        "whyItMatters": "Mail voting is widely used across all AZ-06 counties. Each county recorder processes requests independently.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-clean-elections"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-az06-aevl",
+        "topic": "Active Early Voting List",
+        "currentRule": "Voters on the AEVL automatically receive a mail ballot for every election. Join or update status through your county recorder or the statewide voter portal.",
+        "status": "active",
+        "whyItMatters": "AEVL is the primary mechanism for recurring mail ballots in AZ-06. Voters who drop off the list must re-request each election.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-voter-portal"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "detail": "ARS § 16-544. Pima County: pima.vote. Statewide: my.arizona.vote. Contact Cochise, Graham, Greenlee, or Pinal recorders for county-specific enrollment."
+      },
+      {
+        "id": "rule-az06-early",
+        "topic": "Early voting rules",
+        "currentRule": "In-person early voting begins 27 days before election day at each county recorder's office and designated early voting sites. AZ-06 counties use precinct-based sites, not Maricopa-style vote centers.",
+        "status": "active",
+        "whyItMatters": "Provides an alternative to election-day voting. Sites and hours vary by county — verify with Pima, Cochise, Graham, Greenlee, or Pinal recorder.",
+        "governingLevel": "countywide",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-pima-elections"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-az06-locations",
+        "topic": "Voting location changes",
+        "currentRule": "AZ-06 counties use precinct-based voting. Voters must vote at their assigned precinct polling place. Voting at the wrong precinct will result in a provisional ballot.",
+        "status": "active",
+        "whyItMatters": "Unlike Maricopa (vote centers), AZ-06 voters cannot vote at any open polling location — precinct assignment matters.",
+        "governingLevel": "countywide",
+        "sourceIds": [
+          "src-pima-elections",
+          "src-cochise-elections"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "detail": "Pinal County precinct court ruling (Votebeat, May 2026) may affect provisional ballot handling for out-of-precinct voters. Monitor implementation across all AZ-06 counties."
+      },
+      {
+        "id": "rule-az06-boundaries",
+        "topic": "District boundary",
+        "currentRule": "AZ-06 boundary set by the 2021 Independent Redistricting Commission map for the 2022–2030 cycle. Covers Pima, Cochise, Graham, Greenlee, and portions of Pinal County — no Maricopa County component.",
+        "status": "active",
+        "whyItMatters": "Determines who is a constituent of AZ-06. Confirm your county and precinct with your county recorder.",
+        "governingLevel": "district",
+        "sourceIds": [
+          "src-az-irc",
+          "src-ballotpedia-az06"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-az06-primary-calendar",
+        "topic": "2026 primary calendar",
+        "currentRule": "July 21, 2026 is the controlling primary election date for AZ-06 voter-facing deadlines. Any Aug. 4, 2026 references from older sources are superseded.",
+        "status": "active",
+        "whyItMatters": "Prevents stale Aug. 4 references from driving registration, early voting, mail-ballot request, or ballot-receipt deadlines for AZ-06 voters.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-sos-elections",
+          "src-az-statutes-elex"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "detail": "Arizona HB2022 moved the 2026 primary from Aug. 4 to July 21. General election remains November 3, 2026."
+      },
+      {
+        "id": "rule-az06-mail-request",
+        "topic": "Mail-ballot request rules",
+        "currentRule": "Mail ballot requests must be received by the county recorder at least 11 days before election day. For the 2026 primary, the deadline is July 10.",
+        "status": "active",
+        "whyItMatters": "Late requests are rejected; voter must use in-person early voting or election-day precinct voting.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-clean-elections"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-az06-return",
+        "topic": "Ballot return rules",
+        "currentRule": "Mail ballots must be received (not postmarked) by 7:00 PM on election day by the county recorder. Primary receipt deadline: July 21 at 7 PM. General: November 3 at 7 PM.",
+        "status": "active",
+        "whyItMatters": "Most common cause of ballot rejection in AZ. Postmark does not count — physical receipt by 7 PM is required.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-statutes-elex"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-05-26",
+        "detail": "ARS § 16-548. Ballots may be dropped at any county recorder office, early voting site, or official drop box by 7 PM election day."
+      },
+      {
+        "id": "rule-az06-rejection",
+        "topic": "Ballot rejection",
+        "currentRule": "Common rejection causes: late receipt, missing signature, signature mismatch, voter not registered at address on file.",
+        "status": "active",
+        "whyItMatters": "Affects whether a returned ballot is counted. AZ-06 voters should verify their ballot was accepted after the election.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-clean-elections"
+        ],
+        "confidence": "medium",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-az06-cure",
+        "topic": "Ballot curing",
+        "currentRule": "For 2026 federal-office elections, voters may cure signature issues during a five-calendar-day post-election window. Primary cure deadline: July 26. General: November 8.",
+        "status": "watch",
+        "whyItMatters": "Curing window directly determines whether a signature-defect ballot is counted. Monitor Pima, Cochise, Graham, Greenlee, and Pinal county notification processes.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-sos-early-voting",
+          "src-az-statutes-elex"
+        ],
+        "confidence": "medium",
+        "lastVerified": "2026-05-26",
+        "needsReview": true,
+        "detail": "ARS § 16-550. HB2022 confirms the 2026 federal-office cure window uses calendar days. Retain as watch until each AZ-06 county recorder publishes election-specific cure notification guidance."
+      },
+      {
+        "id": "rule-az06-canvass",
+        "topic": "Canvass rules",
+        "currentRule": "County canvass within 20 days of election day; statewide canvass certifies official results.",
+        "status": "active",
+        "whyItMatters": "Determines when results become official across all AZ-06 counties.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-statutes-elex",
+          "src-az-clean-elections"
+        ],
+        "confidence": "medium",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "rule-az06-recount",
+        "topic": "Recount rules",
+        "currentRule": "Automatic recount triggered when the margin is at or below the statutory threshold.",
+        "status": "active",
+        "whyItMatters": "Determines whether a recount runs and on what timeline for AZ-06 races.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-az-statutes-elex"
+        ],
+        "confidence": "medium",
+        "lastVerified": "2026-05-26"
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-az-voter-portal",
+        "label": "My Arizona Vote — statewide voter portal",
+        "url": "https://my.arizona.vote",
+        "description": "Register, request a mail ballot, track your ballot status, and find your polling location. Official AZ SOS portal.",
+        "governingAuthority": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-az-voter-portal",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-pima-vote",
+        "label": "Pima County voter portal — pima.vote",
+        "url": "https://pima.vote",
+        "description": "Pima County Elections voter portal for ballot status, polling places, and registration. Covers suburban Tucson portion of AZ-06.",
+        "governingAuthority": "Pima County Elections",
+        "sourceType": "official-county",
+        "sourceId": "src-pima-vote",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-pima-elections",
+        "label": "Pima County Elections Department",
+        "url": "https://www.pima.gov/394/Elections",
+        "description": "Covers Catalina Foothills, Oro Valley, Marana, Green Valley, Vail, and parts of Tucson. Phone: (520) 724-4330.",
+        "governingAuthority": "Pima County",
+        "sourceType": "official-county",
+        "sourceId": "src-pima-elections",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-cochise-elections",
+        "label": "Cochise County Elections",
+        "url": "https://www.cochise.az.gov/292/Elections",
+        "description": "Official elections page for Sierra Vista, Bisbee, Tombstone, Douglas. Phone: (520) 432-8350.",
+        "governingAuthority": "Cochise County",
+        "sourceType": "official-county",
+        "sourceId": "src-cochise-elections",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-graham-recorder",
+        "label": "Graham County Recorder (Elections)",
+        "url": "https://www.graham.az.gov/262/Recorders-Office",
+        "description": "Election administration for Safford and Graham County voters. Phone: (928) 428-3250.",
+        "governingAuthority": "Graham County",
+        "sourceType": "official-county",
+        "sourceId": "src-graham-recorder",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-az-clean-elections",
+        "label": "AZ Clean Elections — ballot-by-mail guide",
+        "url": "https://www.azcleanelections.gov/voting-methods/ballot-by-mail",
+        "description": "Non-partisan guide to Arizona's ballot-by-mail process, AEVL, and mail ballot tracking.",
+        "governingAuthority": "Arizona Clean Elections Commission",
+        "sourceType": "civic-nonprofit",
+        "sourceId": "src-az-clean-elections",
+        "lastVerified": "2026-05-26"
+      },
+      {
+        "id": "res-az-sos-early-voting",
+        "label": "AZ SOS — early voting & mail ballot info",
+        "url": "https://azsos.gov/elections/voters/early-voting",
+        "description": "Official page on early voting windows, mail ballot deadlines, and cure procedures for Arizona.",
+        "governingAuthority": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-az-sos-early-voting",
+        "lastVerified": "2026-05-26"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-001",
+        "title": "AZ primary date moved to July 21 — new law signed Feb 6, 2026",
+        "fieldChanged": "Primary election date",
+        "oldValue": "First Tuesday of August",
+        "newValue": "July 21, 2026 (second-to-last Tuesday in July, per new statute signed by Gov. Katie Hobbs Feb 6, 2026)",
+        "sourceIds": [
+          "src-az-sos-elections"
+        ],
+        "detectedAt": "2026-05-26T08:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-002",
+        "title": "SCOTUS partial stay granted on AZ proof-of-citizenship requirement (May 10, 2026)",
+        "fieldChanged": "Voter registration rule — proof-of-citizenship status",
+        "oldValue": "9th Circuit injunction blocking HB 2492 in effect",
+        "newValue": "SCOTUS granted partial stay May 10, 2026; cert petition responses due May 26. Requirement status uncertain for 2026 general election.",
+        "sourceIds": [
+          "src-az-hb2492-scotus"
+        ],
+        "detectedAt": "2026-05-26T08:00:00Z",
+        "severity": "high",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-003",
+        "title": "AZ-06 config initialized — all primary and general deadlines wired",
+        "fieldChanged": "Dashboard configuration",
+        "oldValue": "Not configured",
+        "newValue": "All 2026 election events, sources (14), rules, and resources configured for initial release.",
+        "sourceIds": [
+          "src-az-sos-elections",
+          "src-az-sos-early-voting"
+        ],
+        "detectedAt": "2026-05-26T08:00:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "internal"
+      }
+    ],
+    "CONFLICTS": [
+      {
+        "id": "conf-001",
+        "title": "Proof-of-citizenship requirement — conflicting court orders",
+        "description": "Arizona HB 2492 (proof-of-citizenship to register) has conflicting federal and state court rulings. 9th Circuit struck it down; SCOTUS granted partial stay May 10, 2026. The law's status for the November 2026 general election registration deadline (Oct 5) is unresolved.",
+        "conflictType": "rule-conflict",
+        "sourceIds": [
+          "src-az-hb2492-scotus",
+          "src-az-sos-register"
+        ],
+        "detectedAt": "2026-05-26T08:00:00Z",
+        "severity": "high",
+        "reviewState": "open",
+        "visibility": "public"
+      }
+    ],
     "NEWS": [
       {
-        "headline": "USPS proposes rule requiring states to share voter lists for mail-in ballots",
-        "sourceName": "KGUN 9 Tucson News",
-        "url": "https://www.kgun9.com/politics/usps-proposes-rule-requiring-states-to-share-voter-lists-for-mail-in-ballots",
-        "publishedAt": "2026-06-10",
-        "relevanceSummary": "The U.S. Postal Service proposed rules requiring states to provide voter eligibility lists before processing mail-in ballots, following Trump's March 2026 executive order on voter list sharing. AZ-06 voters \u2014 who rely heavily on mail ballots in Pima, Cochise, Graham, Greenlee, and Pinal counties \u2014 could face disruptions to mail ballot delivery if the rule is finalized before the July 21 primary, though ongoing lawsuits may delay implementation.",
-        "tag": "rule-change",
-        "id": "news-2026-0610-az-06-01",
+        "id": "news-007",
+        "headline": "Democrat JoAnna Mendoza leads incumbent Ciscomani in AZ-06 polls",
+        "sourceName": "Tucson Sentinel / Ragnar Research",
+        "url": "https://www.tucsonsentinel.com/local/report/042926_cd6_poll/conservative-poll-shows-gops-ciscomani-trailing-dem-challenger-mendoza-cd6/",
+        "publishedAt": "2026-04-29",
+        "relevanceSummary": "A conservative-leaning poll (Ragnar Research, April 2026) shows Mendoza (D) leading Ciscomani (R) 47%-44%. Mendoza raised $2.44M in Q1 2026 vs. Ciscomani's $1.14M. Prediction markets favor Mendoza at 76%. July 21 primary precedes the November 3 general.",
+        "tag": "ballot-access",
         "reviewState": "new"
       },
       {
-        "headline": "Special prosecutor investigating Maricopa County Recorder employees",
-        "sourceName": "Phoenix New Times (via Votebeat)",
-        "url": "https://www.phoenixnewtimes.com/news/special-prosecutor-maricopa-county-recorder-workers-40673318/",
-        "publishedAt": "2026-06-09",
-        "relevanceSummary": "A special prosecutor is investigating whether Maricopa County Recorder Justin Heap's staff illegally seized a ballot scanner and provisional ballot envelopes during a Tempe election count, with a criminal referral submitted just weeks before early ballots mail out for the July 21 primary. While AZ-06 sits outside Maricopa County's core, the Heap-board dispute introduces uncertainty about statewide primary administration as Arizona's primary season opens \u2014 and Heap has separately threatened felony charges against poll workers over drop-box locations in the upcoming primary.",
+        "id": "news-008",
+        "headline": "Trump DOJ backs Arizona proof-of-citizenship voting law at U.S. Supreme Court",
+        "sourceName": "Arizona Capitol Times",
+        "url": "https://azcapitoltimes.com/news/2026/05/28/trump-administration-backs-state-gop-proof-of-citizenship-push/",
+        "publishedAt": "2026-05-28",
+        "relevanceSummary": "Trump DOJ asked SCOTUS to allow Arizona to block voters without proof of citizenship and enable county roll purges. Could affect AZ-06 general election voter registration, particularly in Cochise and Pima counties along the border.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-001",
+        "headline": "Federal Judge Dismisses DOJ Lawsuit Seeking Arizona Voter Rolls",
+        "sourceName": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/in-major-blow-to-trump-doj-court-rejects-demand-for-arizonas-voter-rolls/",
+        "publishedAt": "2026-04-28",
+        "relevanceSummary": "U.S. District Judge Susan Brnovich dismissed the DOJ's lawsuit demanding Arizona's unredacted statewide voter registration list. The 6th federal court to reject Trump voter roll demands; protects AZ-06 voter privacy.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-002",
+        "headline": "Supreme Court Partially Reinstates Arizona's Proof-of-Citizenship Voting Law",
+        "sourceName": "Voting Rights Lab",
+        "url": "https://votingrightslab.org/report/https-votingrightslab-org-report-whats-at-stake-for-elections-at-the-supreme-court/",
+        "publishedAt": "2026-05-10",
+        "relevanceSummary": "SCOTUS granted a partial stay of injunctions blocking Arizona's HB 2492 proof-of-citizenship requirement. Cert petition responses due May 26. A ruling could affect 2026 general election voter registration in AZ-06.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-003",
+        "headline": "Arizona Primary Election Challenges Remove 12 Candidates From Ballot",
+        "sourceName": "Arizona Capitol Times",
+        "url": "https://azcapitoltimes.com/news/2026/05/06/challenges-to-primary-election-candidates-oust-12-10-survive/",
+        "publishedAt": "2026-05-06",
+        "relevanceSummary": "22 candidates challenged across AZ statewide, congressional, and legislative races. 12 removed. Ballots finalized and sent to print May 11. No AZ-06-specific challenges noted.",
         "tag": "administration",
-        "id": "news-2026-0610-az-06-02",
         "reviewState": "new"
       },
       {
-        "headline": "With 2026 Midterms approaching fast, here are the races you need to watch",
-        "sourceName": "Quiver Quantitative",
-        "url": "https://www.quiverquant.com/news/With+2026+Midterms+approaching+fast,+here+are+the+races+you+need+to+watch",
-        "publishedAt": "2026-06-08",
-        "relevanceSummary": "AZ-06 is rated a toss-up and flagged as one of the most-watched 2026 midterm races, with spending neck-and-neck between incumbent Republican Juan Ciscomani and DCCC-backed Democrat JoAnna Mendoza, who has raised over $5.3 million. Ciscomani's campaign has received nearly $2 million from crypto super PAC Fairshake, while Mendoza draws from ActBlue and a slate of progressive endorsers; both of Ciscomani's prior wins came by razor-thin margins.",
-        "tag": "primary",
-        "id": "news-2026-0610-az-06-03",
-        "reviewState": "new"
-      },
-      {
-        "headline": "$75 buys you 300 words \u2014 and an audience of 4 million Arizona voters",
-        "sourceName": "Arizona Capitol Times",
-        "url": "https://azcapitoltimes.com/news/2026/06/08/75-buys-you-300-words-and-an-audience-of-4-million-arizona-voters/",
-        "publishedAt": "2026-06-08",
-        "relevanceSummary": "Arizona voters have until 5 p.m. on June 24 to submit $75 ballot-pamphlet arguments about the 20-plus November referenda still pending at the Legislature, including voting-ID requirements, early-ballot return deadlines, and redistricting measures that could affect AZ-06's boundaries. AZ-06 constituents in Pima, Cochise, Graham, Greenlee, and Pinal counties will receive the mailed ballot pamphlet and can weigh in at ballotarguments.az.gov before the deadline.",
-        "tag": "voter-resource",
-        "id": "news-2026-0610-az-06-04",
-        "reviewState": "new"
-      },
-      {
-        "headline": "Arizona Supreme Court won't overturn judge's ruling to send 'fake elector' case back to grand jury",
-        "sourceName": "KJZZ",
-        "url": "https://www.kjzz.org/politics/2026-06-04/arizona-supreme-court-wont-overturn-judges-ruling-to-send-fake-elector-case-back-to-grand-jury",
-        "publishedAt": "2026-06-04",
-        "relevanceSummary": "The Arizona Supreme Court declined to review a lower-court ruling that effectively reset AG Kris Mayes' 2020 fake-electors prosecution \u2014 which names figures including state Sen. Jake Hoffman \u2014 forcing the case back to a grand jury with the 2026 AG election looming. For AZ-06 voters, the ruling prolongs a high-profile election-integrity case that Arizona Republicans have used to argue political 'lawfare,' shaping the broader election-confidence debate heading into the July 21 primary.",
+        "id": "news-004",
+        "headline": "Campaign Legal Center Challenges Trump's Executive Order on Vote-by-Mail",
+        "sourceName": "Campaign Legal Center",
+        "url": "https://campaignlegal.org/cases-actions/defending-vote-mail-trump-administrations-unconstitutional-executive-overreach-lulac",
+        "publishedAt": "2026-05-19",
+        "relevanceSummary": "Federal lawsuit filed to block Trump executive order (March 31) restricting vote-by-mail and creating a national voter registry. AZ Students' Association is a plaintiff — directly relevant to AZ-06 voters who rely on AEVL/mail voting.",
         "tag": "litigation",
-        "id": "news-2026-0610-az-06-05",
         "reviewState": "new"
       },
       {
-        "headline": "DOJ prepares to appeal Arizona ruling keeping voter records confidential",
-        "sourceName": "Arizona Capitol Times",
-        "url": "https://azcapitoltimes.com/news/2026/06/04/doj-prepares-to-appeal-arizona-ruling-keeping-voter-records-confidential/",
-        "publishedAt": "2026-06-04",
-        "relevanceSummary": "The Trump DOJ filed to appeal a federal judge's ruling that blocked it from accessing Arizona's 4.3 million voter registration records, including protected data like partial Social Security numbers and signatures; Secretary of State Adrian Fontes called it 'political theater.' AZ-06 voters across Pima, Cochise, Graham, Greenlee, and Pinal counties are among those whose private registration data is at the center of the federal-state standoff headed to the 9th Circuit.",
-        "tag": "litigation",
-        "id": "news-2026-0610-az-06-06",
+        "id": "news-005",
+        "headline": "Maricopa County Power Struggle Over Election Control Threatens 2026 Preparedness",
+        "sourceName": "Voting Rights Lab",
+        "url": "https://votingrightslab.org/2026/04/27/election-boards-the-battleground-for-partisan-interference/",
+        "publishedAt": "2026-04-27",
+        "relevanceSummary": "Legal dispute between Maricopa Recorder and Board of Supervisors over election control. Note: AZ-06 has NO Maricopa County, but statewide AZ SOS infrastructure and shared ballot systems may be indirectly affected.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-006",
+        "headline": "Brennan Center: Arizona Among States With Most Restrictive Voting Laws Since 2021",
+        "sourceName": "Brennan Center for Justice",
+        "url": "https://www.brennancenter.org/our-work/research-reports/state-voting-laws-roundup-may-2026",
+        "publishedAt": "2026-05-19",
+        "relevanceSummary": "Arizona among states enacting 5+ restrictive voting laws since 2021. FBI and DOJ targeted AZ election records. Proposed federal immigration officers at polling places (not enacted). Relevant to AZ-06 border-area counties Cochise and Greenlee.",
+        "tag": "rule-change",
         "reviewState": "new"
       }
     ],
-    "SOURCES": [],
-    "ELECTION_EVENTS": [],
-    "RULES": [],
-    "RESOURCES": [],
     "LAST_REFRESH": {
-      "id": "run-2026-06-10T22-00-00-az-06",
-      "startedAt": "2026-06-10T21:59:30.000Z",
-      "completedAt": "2026-06-10T22:00:00Z",
+      "id": "run-2026-05-26-az06-initial",
+      "startedAt": "2026-06-02T21:00:00Z",
+      "completedAt": "2026-06-02T21:45:00Z",
       "triggerType": "manual",
-      "sourcesChecked": 13,
-      "updatesCreated": 0,
-      "conflictsCreated": 0,
+      "sourcesChecked": 14,
+      "updatesCreated": 3,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "AZ-06 weekly refresh on 2026-06-10. Status: Arizona primary, 41 days out. Incumbent: Rep. Juan Ciscomani (R); opponent: DCCC-backed Democrat JoAnna Mendoza. Six new news items added covering the past week (Jun 3-10). AZ-06 primary is 41 days out. Dominant statewide story this week is the USPS proposed rule requiring states to share voter lists for mail-in ballots, which would directly affect AZ-06's heavily mail-voting counties. Maricopa Recorder Heap-Board dispute continues to escalate but sits outside the district's core counties. Procedural rules and election-event dates unchanged from the bundle baseline; all news items routed to the human-review queue for editor confirmation."
+      "summary": "Initial build May 26, 2026. All 14 sources verified. AZ-06 primary not yet held (July 21). Key watch item: SCOTUS partial stay on proof-of-citizenship requirement (HB 2492) — cert petition responses due May 26. AZ-06 has no Maricopa County component."
     },
-    "NEXT_REFRESH_AT": "2026-06-12T22:00:00Z",
+    "NEXT_REFRESH_AT": "2026-06-02T19:56:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-2026-w24-az-06",
-      "periodStart": "2026-06-08",
-      "periodEnd": "2026-06-14",
-      "sourcesChecked": 13,
-      "newUpdates": 0,
-      "conflictsCreated": 0,
+      "id": "wr-az06-2026-w21",
+      "periodStart": "2026-05-19",
+      "periodEnd": "2026-05-26",
+      "sourcesChecked": 14,
+      "newUpdates": 3,
+      "conflictsCreated": 1,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
       "newsItems": 6,
-      "needsReview": 6,
+      "needsReview": 2,
       "sourceErrors": 0,
-      "summary": "AZ-06 primary is 41 days out. Dominant statewide story this week is the USPS proposed rule requiring states to share voter lists for mail-in ballots, which would directly affect AZ-06's heavily mail-voting counties. Maricopa Recorder Heap-Board dispute continues to escalate but sits outside the district's core counties.",
-      "generatedAt": "2026-06-10T22:00:00Z"
-    },
-    "districtNumber": "AZ-06"
-  },
-  "districtCode": "AZ-06"
+      "summary": "Initial build week of May 19–26, 2026. AZ-06 dashboard created. Primary July 21 not yet held — Ciscomani (R) and Mendoza (D) are presumptive nominees. Key watch: SCOTUS partial stay on AZ proof-of-citizenship requirement. AZ-06 covers Pima (suburban Tucson), Cochise, Graham, Greenlee, and Pinal counties — NO Maricopa County.",
+      "generatedAt": "2026-06-02T21:45:00Z"
+    }
+  }
 }
