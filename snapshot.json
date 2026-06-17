@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-02",
-  "updatedAt": "2026-06-02T21:45:00Z",
-  "exportedAt": "2026-06-15T19:44:05.811Z",
+  "dataAsOf": "2026-06-17",
+  "updatedAt": "2026-06-17T22:40:00Z",
+  "exportedAt": "2026-06-17T22:55:35.757Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -794,6 +794,35 @@
         "severity": "low",
         "reviewState": "new",
         "visibility": "internal"
+      },
+      {
+        "id": "upd-004",
+        "title": "2026 deadlines re-verified against AZ Secretary of State; no changes detected",
+        "fieldChanged": "2026 primary and general election deadlines",
+        "oldValue": "Deadlines confirmed at initial build (May 26, 2026).",
+        "newValue": "As of the June 17, 2026 refresh, AZ SOS guidance still lists July 21, 2026 as the primary election (per HB 2022, signed Feb. 6, 2026), June 22, 2026 as the primary voter registration deadline, June 24 – July 17, 2026 as the early in-person voting window, July 10, 2026 as the mail-ballot application deadline, and November 3, 2026 as Election Day. Signature curing window remains five calendar days after election per HB 2022. No changes detected for AZ-06 counties (Pima, Cochise, Graham, Greenlee, Pinal).",
+        "sourceIds": [
+          "src-az-sos-elections",
+          "src-az-sos-early-voting"
+        ],
+        "detectedAt": "2026-06-17T22:30:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-005",
+        "title": "HCR 2001 voter-ID ballot measure formally placed on November 2026 ballot",
+        "fieldChanged": "November 2026 ballot measures (downstream rule-change watch)",
+        "oldValue": "Voter-ID expansion proposals were tracked as pending legislative action.",
+        "newValue": "On June 15, 2026, the Arizona legislature formally placed HCR 2001 on the November 3, 2026 ballot, bypassing Gov. Hobbs's veto authority for legislatively-referred constitutional amendments. If passed by voters, the measure would require government-issued ID for all voters — including mail voters — and make additional election-rule changes. Does NOT change current July 21, 2026 primary procedures or November 3, 2026 general procedures. Watch-only item for AZ-06 voters.",
+        "sourceIds": [
+          "src-az-sos-elections"
+        ],
+        "detectedAt": "2026-06-17T22:32:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "public"
       }
     ],
     "CONFLICTS": [
@@ -831,6 +860,26 @@
         "publishedAt": "2026-05-28",
         "relevanceSummary": "Trump DOJ asked SCOTUS to allow Arizona to block voters without proof of citizenship and enable county roll purges. Could affect AZ-06 general election voter registration, particularly in Cochise and Pima counties along the border.",
         "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-009",
+        "headline": "Ciscomani vs. Mendoza: AZ-06 enters primary stretch as Cook rates the race a toss-up",
+        "sourceName": "Volunteer Blue / Progressive Congress",
+        "url": "https://volunteerblue.org/key-races-2026/",
+        "publishedAt": "2026-06-10",
+        "relevanceSummary": "Race trackers continue to rate AZ-06 a toss-up heading into the July 21 primary. Incumbent Juan Ciscomani (R) faces DCCC-backed JoAnna Mendoza (D) on Nov. 3. Cook Political Report has the district at EVEN partisan lean; Mendoza led Ciscomani 47-44 in an April Ragnar Research poll. Both campaigns are spending heavily on Pima County media.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-010",
+        "headline": "Arizona ballot measure to change voting rules will be on the November 2026 ballot",
+        "sourceName": "Votebeat Arizona",
+        "url": "https://www.votebeat.org/arizona/2026/06/13/2026-ballot-measure-voting-changes-republican-voter-id-fast-election-results/",
+        "publishedAt": "2026-06-13",
+        "relevanceSummary": "Arizona lawmakers placed a November 2026 ballot measure (HCR 2001) before voters that would require ID for mail voters and make other election-rule changes if approved. For AZ-06 voters in Pima, Cochise, Graham, Greenlee, and Pinal counties, treat this as watch-list news only; it does not change current July 21 primary or November 3 general procedures.",
+        "tag": "rule-change",
         "reviewState": "new"
       },
       {
@@ -895,32 +944,32 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-05-26-az06-initial",
-      "startedAt": "2026-06-02T21:00:00Z",
-      "completedAt": "2026-06-02T21:45:00Z",
+      "id": "run-2026-06-17-az06-refresh",
+      "startedAt": "2026-06-17T22:00:00Z",
+      "completedAt": "2026-06-17T22:40:00Z",
       "triggerType": "manual",
       "sourcesChecked": 14,
-      "updatesCreated": 3,
-      "conflictsCreated": 1,
+      "updatesCreated": 2,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Initial build May 26, 2026. All 14 sources verified. AZ-06 primary not yet held (July 21). Key watch item: SCOTUS partial stay on proof-of-citizenship requirement (HB 2492) — cert petition responses due May 26. AZ-06 has no Maricopa County component."
+      "summary": "June 17, 2026 bi-weekly refresh for AZ-06 (first refresh since May 26 initial build). Re-verified AZ Secretary of State guidance directly: HB 2022 primary date (July 21), registration deadline (June 22), early-voting window (June 24 – July 17), mail-ballot application (July 10), and November 3 general all unchanged for AZ-06 counties. Ciscomani (R) vs. Mendoza (D, DCCC-backed) remains the November 3 matchup; Cook rates the seat a toss-up with EVEN partisan lean. New: documented June 15 legislative referral of HCR 2001 voter-ID measure to the November ballot (Votebeat reporting June 13). HB 2492 proof-of-citizenship SCOTUS case (Conflict-001) still unresolved. No confidence flips; no procedure changes."
     },
-    "NEXT_REFRESH_AT": "2026-06-02T19:56:00Z",
+    "NEXT_REFRESH_AT": "2026-07-01T22:00:00Z",
     "WEEKLY_REPORT": {
-      "id": "wr-az06-2026-w21",
-      "periodStart": "2026-05-19",
-      "periodEnd": "2026-05-26",
+      "id": "wr-az06-2026-w25",
+      "periodStart": "2026-06-03",
+      "periodEnd": "2026-06-17",
       "sourcesChecked": 14,
-      "newUpdates": 3,
-      "conflictsCreated": 1,
+      "newUpdates": 2,
+      "conflictsCreated": 0,
       "conflictsResolved": 0,
       "deadlinesChanged": 0,
       "rulesChanged": 0,
-      "newsItems": 6,
+      "newsItems": 2,
       "needsReview": 2,
       "sourceErrors": 0,
-      "summary": "Initial build week of May 19–26, 2026. AZ-06 dashboard created. Primary July 21 not yet held — Ciscomani (R) and Mendoza (D) are presumptive nominees. Key watch: SCOTUS partial stay on AZ proof-of-citizenship requirement. AZ-06 covers Pima (suburban Tucson), Cochise, Graham, Greenlee, and Pinal counties — NO Maricopa County.",
-      "generatedAt": "2026-06-02T21:45:00Z"
+      "summary": "Bi-weekly period June 3-17, 2026: First refresh for AZ-06 since the May 26 initial build. AZ SOS deadlines re-verified — unchanged. Ciscomani (R) vs. Mendoza (D) primary stretch confirmed; race remains a toss-up. New watch item: HCR 2001 voter-ID measure formally placed on the November 2026 ballot (June 15). HB 2492 proof-of-citizenship SCOTUS conflict still unresolved. No procedure changes; no confidence flips.",
+      "generatedAt": "2026-06-17T22:40:00Z"
     }
   }
 }
