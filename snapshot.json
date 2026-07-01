@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-06-17",
-  "updatedAt": "2026-06-17T22:40:00Z",
-  "exportedAt": "2026-07-01T05:38:14.827Z",
+  "dataAsOf": "2026-07-01",
+  "updatedAt": "2026-07-01T19:44:26.041Z",
+  "exportedAt": "2026-07-01T20:02:01.343Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -208,7 +208,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-az-clean-elections": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-01",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -509,7 +509,7 @@
       {
         "id": "rule-az06-vbm",
         "topic": "Vote by mail",
-        "currentRule": "Open vote-by-mail. Any registered voter may request a mail ballot for a single election through their county recorder.",
+        "currentRule": "Any voter registered in Arizona may request an early ballot from their county recorder or on the Secretary of State’s website.",
         "status": "active",
         "whyItMatters": "Mail voting is widely used across all AZ-06 counties. Each county recorder processes requests independently.",
         "governingLevel": "statewide",
@@ -538,7 +538,7 @@
       {
         "id": "rule-az06-early",
         "topic": "Early voting rules",
-        "currentRule": "In-person early voting begins 27 days before election day at each county recorder's office and designated early voting sites. AZ-06 counties use precinct-based sites, not Maricopa-style vote centers.",
+        "currentRule": "Early voting begins 27 days before the election, and you can vote in person at an early voting location or by mail. To vote early in person, go to any early voting location in your county during its early voting period as listed by your county recorder; locations and whether they operate as vote centers or precinct-based sites are determined by the county and are not specified by the Secretary of State.",
         "status": "active",
         "whyItMatters": "Provides an alternative to election-day voting. Sites and hours vary by county — verify with Pima, Cochise, Graham, Greenlee, or Pinal recorder.",
         "governingLevel": "countywide",
@@ -944,17 +944,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-06-17-az06-refresh",
-      "startedAt": "2026-06-17T22:00:00Z",
-      "completedAt": "2026-06-17T22:40:00Z",
-      "triggerType": "manual",
-      "sourcesChecked": 14,
+      "id": "run-2026-07-01-az06-auto",
+      "startedAt": "2026-07-01T19:43:49.501Z",
+      "completedAt": "2026-07-01T19:44:26.041Z",
+      "triggerType": "scheduled",
+      "sourcesChecked": 19,
       "updatesCreated": 2,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "June 17, 2026 bi-weekly refresh for AZ-06 (first refresh since May 26 initial build). Re-verified AZ Secretary of State guidance directly: HB 2022 primary date (July 21), registration deadline (June 22), early-voting window (June 24 – July 17), mail-ballot application (July 10), and November 3 general all unchanged for AZ-06 counties. Ciscomani (R) vs. Mendoza (D, DCCC-backed) remains the November 3 matchup; Cook rates the seat a toss-up with EVEN partisan lean. New: documented June 15 legislative referral of HCR 2001 voter-ID measure to the November ballot (Votebeat reporting June 13). HB 2492 proof-of-citizenship SCOTUS case (Conflict-001) still unresolved. No confidence flips; no procedure changes."
+      "summary": "Automated refresh completed 2026-07-01 for AZ-06. Sources checked: 19. LLM verifications: 10. 2 rule/source content changes + 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-01T22:00:00Z",
+    "NEXT_REFRESH_AT": "2026-07-08T19:44:26.041Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
