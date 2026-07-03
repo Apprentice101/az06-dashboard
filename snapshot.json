@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-01",
-  "updatedAt": "2026-07-01T19:44:26.041Z",
-  "exportedAt": "2026-07-03T00:02:14.121Z",
+  "dataAsOf": "2026-07-03",
+  "updatedAt": "2026-07-03T00:15:21.253Z",
+  "exportedAt": "2026-07-03T00:35:52.973Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -111,7 +111,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-05-26",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-cochise-elections": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -208,7 +208,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-az-clean-elections": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-01",
+        "lastVerified": "2026-07-03",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -944,17 +944,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-01-az06-auto",
-      "startedAt": "2026-07-01T19:43:49.501Z",
-      "completedAt": "2026-07-01T19:44:26.041Z",
+      "id": "run-2026-07-03-az06-auto",
+      "startedAt": "2026-07-03T00:14:50.968Z",
+      "completedAt": "2026-07-03T00:15:21.253Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 19,
-      "updatesCreated": 2,
+      "sourcesChecked": 16,
+      "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-01 for AZ-06. Sources checked: 19. LLM verifications: 10. 2 rule/source content changes + 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for AZ-06. Sources checked: 16. LLM verifications: 9. 7 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-08T19:44:26.041Z",
+    "NEXT_REFRESH_AT": "2026-07-10T00:15:21.253Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
