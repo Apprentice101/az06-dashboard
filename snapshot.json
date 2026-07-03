@@ -1,8 +1,8 @@
 {
   "version": "1",
   "dataAsOf": "2026-07-03",
-  "updatedAt": "2026-07-03T00:15:21.253Z",
-  "exportedAt": "2026-07-03T00:35:52.973Z",
+  "updatedAt": "2026-07-03T01:24:29.413Z",
+  "exportedAt": "2026-07-03T01:41:21.810Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -941,20 +941,80 @@
         "relevanceSummary": "Arizona among states enacting 5+ restrictive voting laws since 2021. FBI and DOJ targeted AZ election records. Proposed federal immigration officers at polling places (not enacted). Relevant to AZ-06 border-area counties Cochise and Greenlee.",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-08b7l35",
+        "headline": "Supreme Court will weigh Trump-backed Republican push to revive Arizona voting laws",
+        "sourceName": "WSLS / Associated Press",
+        "url": "https://www.wsls.com/news/politics/2026/06/29/supreme-court-will-weigh-trump-backed-republican-push-to-revive-arizona-voting-laws/",
+        "publishedAt": "2026-06-29",
+        "relevanceSummary": "The article explains that the U.S. Supreme Court will hear a case on Arizona’s proof-of-citizenship requirement for voter registration, which already applies to state and local elections but not federal races, meaning AZ-06 voters may continue to face different documentation rules depending on which contests they vote in and that those rules could change after the Court’s decision.[1]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0sm4lkg",
+        "headline": "Upcoming deadlines for Chandler Primary Election",
+        "sourceName": "City of Chandler News Center",
+        "url": "https://www.chandleraz.gov/news-center/upcoming-deadlines-chandler-primary-election",
+        "publishedAt": "2026-06-24",
+        "relevanceSummary": "Provides specific early voting dates, ballot drop-off hours, and Election Day vote center locations in Chandler, a city within AZ-06, including information on using Chandler City Hall and other vote centers for in-person voting and ballot drop-off and how to request a replacement ballot from Maricopa County Elections.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0gi0p6b",
+        "headline": "U.S. Supreme Court ruling on late-arriving mail ballots doesn’t change Arizona law, Secretary Fontes says",
+        "sourceName": "KTAR News",
+        "url": "https://www.facebook.com/KTARNews/videos/the-us-supreme-court-made-a-ruling-monday-that-states-can-count-ballots-that-arr/28042487745355995/",
+        "publishedAt": "2026-06-24",
+        "relevanceSummary": "In this segment, Arizona Secretary of State Adrian Fontes explains that a new Supreme Court decision allowing states to count mail ballots that arrive after Election Day does not apply in Arizona, so AZ-06 voters must still ensure their mailed ballots are received by close of polls on Election Day under existing state law.[4]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0hl2e3p",
+        "headline": "Maricopa County tests election equipment; what voters should know",
+        "sourceName": "Arizona's Family (azfamily.com)",
+        "url": "https://www.youtube.com/watch?v=FKF2_Nzv7aA",
+        "publishedAt": "2026-06-22",
+        "relevanceSummary": "Reports on Maricopa County’s public testing of tabulation scanners for vote centers and early ballots as the 2026 primary \"officially kicked off,\" informing AZ-06 voters about the status and oversight of the voting machines used in their county.[2]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-01nsdzc",
+        "headline": "Early voting for the Arizona primary election starts next week",
+        "sourceName": "ABC15 Arizona",
+        "url": "https://www.facebook.com/ABC15/videos/early-voting-for-the-arizona-primary-election-starts-next-week-manuelita-beck-ha/1325053545829384/",
+        "publishedAt": "2026-06-19",
+        "relevanceSummary": "Video segment outlines key dates and changes for the 2026 Arizona primary election, including the start of early voting and updated procedures, giving AZ-06 voters statewide deadlines and rules they must follow.[5]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0twgvj7",
+        "headline": "How to vote in Arizona's 2026 primary election",
+        "sourceName": "Votebeat",
+        "url": "https://www.votebeat.org/arizona/2026/06/17/primary-election-2026-how-to-vote-id-mail-register-democratic-republican/",
+        "publishedAt": "2026-06-17",
+        "relevanceSummary": "Explains 2026 Arizona primary voting procedures, including voter registration deadlines, party affiliation rules, acceptable voter ID, early voting, mail-in ballots, and how nonpartisan local races appear on the ballot, all of which apply statewide to voters in AZ-06.[8]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
       "id": "run-2026-07-03-az06-auto",
-      "startedAt": "2026-07-03T00:14:50.968Z",
-      "completedAt": "2026-07-03T00:15:21.253Z",
+      "startedAt": "2026-07-03T01:23:48.687Z",
+      "completedAt": "2026-07-03T01:24:29.413Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 0,
-      "conflictsCreated": 0,
+      "sourcesChecked": 18,
+      "updatesCreated": 6,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-03 for AZ-06. Sources checked: 16. LLM verifications: 9. 7 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-03 for AZ-06. Sources checked: 18. LLM verifications: 10. No changes detected; all sources verified unchanged. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-07-10T00:15:21.253Z",
+    "NEXT_REFRESH_AT": "2026-07-10T01:24:29.413Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
