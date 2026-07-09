@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-08",
   "updatedAt": "2026-07-08T19:36:15.929Z",
-  "exportedAt": "2026-07-08T20:34:01.422Z",
+  "exportedAt": "2026-07-09T17:02:45.063Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -681,30 +681,70 @@
     ],
     "RESOURCES": [
       {
-        "id": "res-az-voter-portal",
-        "label": "My Arizona Vote — statewide voter portal",
-        "url": "https://my.arizona.vote",
+        "id": "res-register",
+        "label": "Register to vote",
         "description": "Register, request a mail ballot, track your ballot status, and find your polling location. Official AZ SOS portal.",
+        "url": "https://my.arizona.vote",
         "governingAuthority": "Arizona Secretary of State",
         "sourceType": "official-state",
         "sourceId": "src-az-voter-portal",
-        "lastVerified": "2026-05-26"
+        "lastVerified": "2026-07-08"
       },
       {
-        "id": "res-pima-vote",
-        "label": "Pima County voter portal — pima.vote",
-        "url": "https://pima.vote",
-        "description": "Pima County Elections voter portal for ballot status, polling places, and registration. Covers suburban Tucson portion of AZ-06.",
-        "governingAuthority": "Pima County Elections",
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Register, request a mail ballot, track your ballot status, and find your polling location. Official AZ SOS portal.",
+        "url": "https://my.arizona.vote",
+        "governingAuthority": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-az-voter-portal",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
+        "description": "Voters can find official ballot drop-box locations, including 24-hour options, and early voting sites for the primary election.",
+        "url": "https://recorder.pima.gov/earlyvotingsites",
+        "governingAuthority": "Pima County Recorder's Office",
         "sourceType": "official-county",
-        "sourceId": "src-pima-vote",
-        "lastVerified": "2026-05-26"
+        "sourceId": "src-az06-county",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-check-reg",
+        "label": "Check registration status",
+        "description": "Confirm registration, polling place, and party affiliation.",
+        "url": "https://my.arizona.vote/WhereToVote.aspx",
+        "governingAuthority": "Arizona SOS",
+        "sourceType": "official-state",
+        "sourceId": "src-az-sos",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Register, request a mail ballot, track your ballot status, and find your polling location. Official AZ SOS portal.",
+        "url": "https://my.arizona.vote",
+        "governingAuthority": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-az-voter-portal",
+        "lastVerified": "2026-07-08"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Unofficial election-night returns from the Arizona Secretary of State.",
+        "url": "https://azsos.gov/elections/election-information/unofficial-enr",
+        "governingAuthority": "Arizona Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-az-sos",
+        "lastVerified": "2026-07-08"
       },
       {
         "id": "res-pima-elections",
         "label": "Pima County Elections Department",
-        "url": "https://www.pima.gov/394/Elections",
         "description": "Covers Catalina Foothills, Oro Valley, Marana, Green Valley, Vail, and parts of Tucson. Phone: (520) 724-4330.",
+        "url": "https://www.pima.gov/394/Elections",
         "governingAuthority": "Pima County",
         "sourceType": "official-county",
         "sourceId": "src-pima-elections",
@@ -713,8 +753,8 @@
       {
         "id": "res-cochise-elections",
         "label": "Cochise County Elections",
-        "url": "https://www.cochise.az.gov/292/Elections",
         "description": "Official elections page for Sierra Vista, Bisbee, Tombstone, Douglas. Phone: (520) 432-8350.",
+        "url": "https://www.cochise.az.gov/292/Elections",
         "governingAuthority": "Cochise County",
         "sourceType": "official-county",
         "sourceId": "src-cochise-elections",
@@ -723,28 +763,18 @@
       {
         "id": "res-graham-recorder",
         "label": "Graham County Recorder (Elections)",
-        "url": "https://www.graham.az.gov/262/Recorders-Office",
         "description": "Election administration for Safford and Graham County voters. Phone: (928) 428-3250.",
+        "url": "https://www.graham.az.gov/262/Recorders-Office",
         "governingAuthority": "Graham County",
         "sourceType": "official-county",
         "sourceId": "src-graham-recorder",
         "lastVerified": "2026-05-26"
       },
       {
-        "id": "res-az-clean-elections",
-        "label": "AZ Clean Elections — ballot-by-mail guide",
-        "url": "https://www.azcleanelections.gov/voting-methods/ballot-by-mail",
-        "description": "Non-partisan guide to Arizona's ballot-by-mail process, AEVL, and mail ballot tracking.",
-        "governingAuthority": "Arizona Clean Elections Commission",
-        "sourceType": "civic-nonprofit",
-        "sourceId": "src-az-clean-elections",
-        "lastVerified": "2026-05-26"
-      },
-      {
         "id": "res-az-sos-early-voting",
         "label": "AZ SOS — early voting & mail ballot info",
-        "url": "https://azsos.gov/elections/voters/early-voting",
         "description": "Official page on early voting windows, mail ballot deadlines, and cure procedures for Arizona.",
+        "url": "https://azsos.gov/elections/voters/early-voting",
         "governingAuthority": "Arizona Secretary of State",
         "sourceType": "official-state",
         "sourceId": "src-az-sos-early-voting",
