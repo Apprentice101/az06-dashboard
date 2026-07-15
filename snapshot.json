@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-08",
-  "updatedAt": "2026-07-08T19:36:15.929Z",
-  "exportedAt": "2026-07-09T17:02:45.063Z",
+  "dataAsOf": "2026-07-15",
+  "updatedAt": "2026-07-15T06:10:28.594Z",
+  "exportedAt": "2026-07-15T06:38:03.440Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "third-party",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-08",
+        "lastVerified": "2026-07-15",
         "confidence": "medium"
       }
     },
@@ -1031,20 +1031,50 @@
         "relevanceSummary": "Explains 2026 Arizona primary voting procedures, including voter registration deadlines, party affiliation rules, acceptable voter ID, early voting, mail-in ballots, and how nonpartisan local races appear on the ballot, all of which apply statewide to voters in AZ-06.[8]",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0vmsq8t",
+        "headline": "What day to vote by in Arizona's 2026 elections",
+        "sourceName": "KTAR",
+        "url": "https://ktar.com/arizona-politics-news/election/midterm-key-voting-dates/5867465/",
+        "publishedAt": "2026-07-15",
+        "relevanceSummary": "KTAR provides statewide 2026 voting deadlines, including UOCAVA timing, Election Day, canvass dates, and certification milestones. Those dates apply directly to AZ-06 voters because Arizona statewide election procedures govern ballot return and county canvassing in the district.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0536djy",
+        "headline": "Attorney says Arizona Supreme Court decision will add to election chaos",
+        "sourceName": "AZFamily",
+        "url": "https://www.azfamily.com/2026/07/09/attorney-says-arizona-supreme-court-decision-will-add-election-chaos/",
+        "publishedAt": "2026-07-09",
+        "relevanceSummary": "AZFamily says the Arizona Supreme Court sided with Maricopa County Recorder Justin Heap in the dispute over county election authority and ordered the county to adopt Heap’s plan. Because AZ-06 lies in Arizona and much of the district is affected by Maricopa County election operations, this could change how ballots and polling logistics are handled locally.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0e0qurv",
+        "headline": "Arizona Supreme Court Delivers Crushing Blow to Maricopa Board of Supervisors",
+        "sourceName": "The Gateway Pundit",
+        "url": "https://www.thegatewaypundit.com/2026/07/arizona-supreme-court-delivers-crushing-blow-maricopa-board/",
+        "publishedAt": "2026-07-08",
+        "relevanceSummary": "The article reports that the Arizona Supreme Court reinstated superior-court injunctions shifting election-administration responsibilities back to Maricopa County Recorder Justin Heap. That matters to AZ-06 voters because Maricopa County procedures affect ballot processing, early voting, and local election administration across the district.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-08-az06-auto",
-      "startedAt": "2026-07-08T19:35:49.979Z",
-      "completedAt": "2026-07-08T19:36:15.929Z",
+      "id": "run-2026-07-15-az06-auto",
+      "startedAt": "2026-07-15T06:09:53.025Z",
+      "completedAt": "2026-07-15T06:10:28.594Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 21,
-      "updatesCreated": 0,
+      "sourcesChecked": 17,
+      "updatesCreated": 3,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-08 for AZ-06. Sources checked: 21. LLM verifications: 10. No changes detected; all sources verified unchanged."
+      "summary": "Automated refresh completed 2026-07-15 for AZ-06. Sources checked: 17. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-15T19:36:15.929Z",
+    "NEXT_REFRESH_AT": "2026-07-22T06:10:28.594Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
