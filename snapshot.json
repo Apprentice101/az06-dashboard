@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-15",
-  "updatedAt": "2026-07-15T06:10:28.594Z",
-  "exportedAt": "2026-07-15T06:38:03.440Z",
+  "dataAsOf": "2026-07-22",
+  "updatedAt": "2026-07-22T06:24:55.638Z",
+  "exportedAt": "2026-07-22T06:49:15.709Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "third-party",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "medium"
       }
     },
@@ -1061,20 +1061,80 @@
         "relevanceSummary": "The article reports that the Arizona Supreme Court reinstated superior-court injunctions shifting election-administration responsibilities back to Maricopa County Recorder Justin Heap. That matters to AZ-06 voters because Maricopa County procedures affect ballot processing, early voting, and local election administration across the district.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-07zix72",
+        "headline": "DOJ deploys federal election monitors across Arizona on primary day",
+        "sourceName": "FOX 10 Phoenix",
+        "url": "https://www.fox10phoenix.com/news/doj-deploys-federal-election-monitors-across-arizona-primary-day.amp",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "FOX 10 reports that the U.S. Department of Justice monitored polling sites in Maricopa, Apache, and Pima counties during Arizona's primary election to ensure compliance with federal voting rights laws, and provides contact information for voters to report potential violations ahead of the general election.[3] This matters to AZ-06 voters because parts of the district are in Maricopa and Pima counties, and it informs them about oversight of polling locations and how to seek federal assistance regarding voting rights.[3]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0nkoi4y",
+        "headline": "Arizona primary: DOJ monitors polls as voting system changes",
+        "sourceName": "NBC News (YouTube clip)",
+        "url": "https://www.youtube.com/watch?v=wtK6PVDwz4c",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "This report details that the U.S. Department of Justice deployed monitors to polling sites in Maricopa, Apache, and Pima counties during the Arizona primary as voters used the new ID verification option for early ballots at voting centers.[4] For AZ-06 voters in Maricopa and Pima counties, it highlights federal oversight of polling locations and reiterates how the new voter ID verification process for early ballots works.[4]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0vc0xqu",
+        "headline": "Arizona Primary Election: Polls open with new early ballot law",
+        "sourceName": "ABC15 Arizona (YouTube)",
+        "url": "https://www.youtube.com/watch?v=wUijtFGyiUo",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "This segment describes the practical impact of a new Arizona law allowing voters who return early ballots on Election Day to have them scanned and tabulated on-site after showing identification to a poll worker, instead of going through the traditional central count process.[1] It informs AZ-06 voters about updated Election Day procedures for early ballots, voter ID at voting centers, and how this may speed up results.[1]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-02nd8xz",
+        "headline": "Arizona voters have a new ID option at the polls",
+        "sourceName": "Rose Law Group Reporter",
+        "url": "https://roselawgroupreporter.com/2026/07/arizona-voters-have-a-new-id-option-at-the-polls/",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "This article explains a new statewide voter ID procedure for returning early ballots: voters can bring their completed early ballot in its green envelope to any voting center, present identification to a poll worker, have the envelope stamped \"identification verified,\" and place it in a designated box for counting, a process all Arizona counties must implement.[2] This directly affects how AZ-06 voters can use mail-in ballots and early voting, and what ID they must show at polling locations.[2]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ikfibg",
+        "headline": "Top officials in Arizona's Maricopa County agree on how to oversee elections, ending a legal battle",
+        "sourceName": "Associated Press",
+        "url": "https://apnews.com/article/maricopa-county-justin-heap-board-supervisors-election-lawsuit-settlement-6a2c4800c70c93794c61fc0cc9d224fe",
+        "publishedAt": "2026-07-16",
+        "relevanceSummary": "AP reports that Maricopa County Recorder Justin Heap and the county Board of Supervisors reached an agreement on how to jointly oversee elections, ending litigation over which office controls key aspects of election administration.[5] Since Maricopa County includes part of AZ-06, this settlement affects how local officials coordinate voter registration, ballot processing, polling place management, and future election procedures for district voters.[5]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-09qr84x",
+        "headline": "Governor Hobbs signs bill moving Arizona’s 2026 primary to July 21",
+        "sourceName": "Pinal County Government News Flash",
+        "url": "https://www.pinal.gov/m/newsflash?cat=1",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "Pinal County’s notice explains that Governor Katie Hobbs signed a bill moving Arizona’s 2026 primary election date from August 4 to July 21.[6] This statewide change alters the primary schedule and associated voter registration and early voting timelines for all Arizona voters, including those in AZ-06, some of whom reside in Pinal County.[6]",
+        "tag": "rule-change",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-15-az06-auto",
-      "startedAt": "2026-07-15T06:09:53.025Z",
-      "completedAt": "2026-07-15T06:10:28.594Z",
+      "id": "run-2026-07-22-az06-auto",
+      "startedAt": "2026-07-22T06:24:08.276Z",
+      "completedAt": "2026-07-22T06:24:55.638Z",
       "triggerType": "scheduled",
       "sourcesChecked": 17,
-      "updatesCreated": 3,
+      "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-15 for AZ-06. Sources checked: 17. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-22 for AZ-06. Sources checked: 17. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-22T06:10:28.594Z",
+    "NEXT_REFRESH_AT": "2026-07-29T06:24:55.638Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
