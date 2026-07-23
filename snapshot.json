@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-22",
   "updatedAt": "2026-07-22T06:24:55.638Z",
-  "exportedAt": "2026-07-22T21:14:18.035Z",
+  "exportedAt": "2026-07-23T17:17:52.438Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -853,6 +853,21 @@
         "severity": "low",
         "reviewState": "new",
         "visibility": "public"
+      },
+      {
+        "id": "upd-az06-primary-general-set-2026",
+        "title": "July 21 primary complete: AZ-06 general-election matchup formally set",
+        "fieldChanged": "News feed (primary conclusion); general-election candidate framing",
+        "oldValue": "Primary campaign coverage; general-election matchup pending July 21 primary",
+        "newValue": "Rep. Juan Ciscomani (R, incumbent) and JoAnna Mendoza (D, Marine Corps veteran) both ran unopposed in the July 21 Arizona primary and are now the formal general-election candidates for AZ-06 on November 3. No change to any existing rule or deadline in AZ-06 (Southeast Arizona: Pima, Cochise, Graham, Greenlee, Pinal counties). Note: the July 15 Maricopa County settlement redistributing early-voting authority to Recorder Justin Heap does NOT affect AZ-06 — the district contains no Maricopa County territory.",
+        "sourceIds": [
+          "src-az-sos-elections"
+        ],
+        "detectedAt": "2026-07-23T17:00:00Z",
+        "severity": "medium",
+        "reviewState": "reviewed",
+        "visibility": "public",
+        "changeKind": "schedule"
       }
     ],
     "CONFLICTS": [
@@ -872,6 +887,16 @@
       }
     ],
     "NEWS": [
+      {
+        "id": "news-016",
+        "headline": "AZ-06 general set: Ciscomani (R) and Mendoza (D) both advanced unopposed on July 21",
+        "sourceName": "KJZZ",
+        "url": "https://www.kjzz.org/elections/2026-07-21/juan-ciscomani-to-face-joanna-mendoza-in-arizona-cd6-race",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "With the July 21 Arizona primary now complete, the AZ-06 general-election matchup is formally set: two-term incumbent Rep. Juan Ciscomani (R) and Marine Corps veteran JoAnna Mendoza (D) both ran unopposed in their respective primaries. Ciscomani defeated Democrat Kirsten Engel in the district's 2024 general by roughly 3 points, and the Cook Political Report continues to rate the district a toss-up for November 3. Mendoza raised $2.44M in Q1 2026 vs. Ciscomani's $1.14M; an April 2026 Ragnar Research poll had Mendoza ahead 47–44.",
+        "tag": "results",
+        "reviewState": "new"
+      },
       {
         "id": "news-007",
         "headline": "Democrat JoAnna Mendoza leads incumbent Ciscomani in AZ-06 polls",
