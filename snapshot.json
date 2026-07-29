@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:24:55.638Z",
-  "exportedAt": "2026-07-23T17:17:52.438Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:27:12.364Z",
+  "exportedAt": "2026-07-29T06:52:32.018Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "third-party",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "medium"
       }
     },
@@ -1146,20 +1146,80 @@
         "relevanceSummary": "Pinal County’s notice explains that Governor Katie Hobbs signed a bill moving Arizona’s 2026 primary election date from August 4 to July 21.[6] This statewide change alters the primary schedule and associated voter registration and early voting timelines for all Arizona voters, including those in AZ-06, some of whom reside in Pinal County.[6]",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-004x5d5",
+        "headline": "Arizona Primary Election: More races called as votes are counted",
+        "sourceName": "FOX 10 Phoenix",
+        "url": "https://www.youtube.com/watch?v=_ByykJp12wU",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "This broadcast explains that Arizona election officials continued counting ballots after the July 21 primary and highlights that key general-election matchups across statewide and congressional races were being set as votes were tallied, providing AZ-06 voters with context on post-election counting and how primary results translate into November ballots.[11]",
+        "tag": "canvass",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0e3ysi7",
+        "headline": "Arizona primary results: every winner headed to November",
+        "sourceName": "The Copper Courier",
+        "url": "https://coppercourier.com/news/politics/az-primary-results/",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "This statewide primary-results piece confirms that Juan Ciscomani won the Republican nomination and JoAnna Mendoza won the Democratic nomination in AZ-06, clarifying who qualified for the November general ballot in the district and helping voters understand their congressional choices.[10]",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-06tpjlx",
+        "headline": "Live Results: Arizona midterm primary elections",
+        "sourceName": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour/politics/live-results-arizona-midterm-primary-elections",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "PBS details statewide Arizona primary reporting procedures, including that polls close at 7 p.m. local time and that early and absentee votes are first reported shortly after the state allows releases, with most votes counted by early morning, giving AZ-06 voters insight into how and when their primary votes are processed and reported.[9]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-087isjn",
+        "headline": "Live Arizona primary election results for Congress",
+        "sourceName": "The Arizona Republic (azcentral)",
+        "url": "https://www.azcentral.com/story/news/politics/elections/2026/07/21/arizona-congressional-district-primary-election-results/90873415007/",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "Azcentral’s live results coverage explains when Arizona congressional primary results start being reported (about 8 p.m. on July 21) and notes that results remain unofficial until ballots are tallied and certified, giving AZ-06 voters key timing and certification context for understanding election-night reporting and canvass procedures.[14]",
+        "tag": "canvass",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-01jo1py",
+        "headline": "Congressional candidates tackle housing, immigration",
+        "sourceName": "The Center Square Arizona",
+        "url": "https://www.thecentersquare.com/arizona/article_22de2200-0f42-43d6-9950-48dc7cea2ff0.html",
+        "publishedAt": "2026-07-20",
+        "relevanceSummary": "This article, while issue-focused, reminds AZ-06 voters of core procedural information: it notes that primary polls will be open from 6 a.m. to 7 p.m. MST on July 21 and directs voters to the Arizona Secretary of State’s elections website for additional official voting information, reinforcing polling-hour and voter-resource details.[5]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0naq3lf",
+        "headline": "2026 Arizona election guide: Learn more about the congressional primaries",
+        "sourceName": "FOX 10 Phoenix",
+        "url": "https://www.fox10phoenix.com/news/2026-arizona-election-guide-learn-more-about-congressional-primaries",
+        "publishedAt": "2026-07-19",
+        "relevanceSummary": "This guide explains the new Arizona law that permanently moves the statewide primary to the second-to-last Tuesday in July, lists the July 21, 2026 primary date, early voting start (June 24), and the voter registration deadline (June 22), along with basic info on AZ-06’s primary candidates, all of which are core election procedures for AZ-06 voters.[7]",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-az06-auto",
-      "startedAt": "2026-07-22T06:24:08.276Z",
-      "completedAt": "2026-07-22T06:24:55.638Z",
+      "id": "run-2026-07-29-az06-auto",
+      "startedAt": "2026-07-29T06:26:29.657Z",
+      "completedAt": "2026-07-29T06:27:12.364Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 17,
+      "sourcesChecked": 18,
       "updatesCreated": 6,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for AZ-06. Sources checked: 17. LLM verifications: 8. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for AZ-06. Sources checked: 18. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:24:55.638Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:27:12.364Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
