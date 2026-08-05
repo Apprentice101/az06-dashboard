@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-08-05",
   "updatedAt": "2026-08-05T06:23:09.518Z",
-  "exportedAt": "2026-08-05T06:46:17.324Z",
+  "exportedAt": "2026-08-05T18:20:34.381Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -245,6 +245,18 @@
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
         "lastVerified": "2026-07-29",
+        "confidence": "medium"
+      },
+      "src-votebeat-az": {
+        "id": "src-votebeat-az",
+        "name": "Votebeat Arizona",
+        "short": "Votebeat AZ",
+        "url": "https://www.votebeat.org/arizona/",
+        "publisher": "Votebeat",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-08-05",
+        "lastVerified": "2026-08-05",
         "confidence": "medium"
       }
     },
@@ -608,6 +620,24 @@
         "lastVerified": "2026-05-26"
       },
       {
+        "id": "rule-az06-id-verify-drop-off",
+        "topic": "Optional ID-verify lane for dropping off mail ballots",
+        "currentRule": "Under 2024 Arizona legislation, county election officials must offer an optional 'ID-verify' lane when a voter drops off a mail ballot at a polling place. Instead of signing the envelope and having elections staff match the signature against the one on file later, a voter may choose to wait in line at the drop-off site and present a driver's license, passport, or similar photo ID; staff then verify identity by ID at drop-off, bypassing signature verification for that ballot. The lane is optional — signature-based drop-off is still available with no ID and no wait. AZ-06 covers Pima County (Tucson suburbs), plus Cochise, Graham, Greenlee, and part of Pinal County. In the July 21, 2026 primary, more than 6,000 Pima County voters (about half of Election Day drop-offs) used the ID-verify lane. Pima County ran two separate lines on Election Day — one for in-person voting, one for ID-verify drop-offs — which is different from Maricopa's combined-line approach. The option is available statewide by law and should also be offered in Cochise, Graham, Greenlee, and Pinal, though the article did not confirm rollout details in those smaller counties (needs county-level verification).",
+        "status": "active",
+        "whyItMatters": "Directly affects when AZ-06 results are called. Pima County Recorder Gabriella Cázares-Kelly finished signature verification around 2 p.m. the Wednesday after the July 2026 primary. If AZ-06 Pima voters use the ID-verify lane at a similar rate in November, AZ-06 results should be called earlier than in past cycles. Individual voters do not have to change anything; voters who want to help speed the count — or simply prefer ID verification to signature matching — can bring photo ID and use the lane. Two Pima-specific caveats to communicate: (1) look for and use the separate ID-verify line, distinct from the in-person voting line; (2) Recorder Cázares-Kelly reported voters mistakenly asking for 'signature verify' when they meant 'ID-verify' — the county plans to train poll workers to interpret both phrases the same way for November.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-votebeat-az",
+          "src-az-sos-early-voting",
+          "src-az-statutes-elex",
+          "src-pima-elections"
+        ],
+        "confidence": "high",
+        "lastVerified": "2026-08-05",
+        "needsReview": false,
+        "detail": "Statutory origin: 2024 Arizona election-timeline bipartisan legislation; State Rep. Alex Kolodin identified as lead architect. Article cites no specific bill number — flag for later bill-number confirmation. Pima's July primary uptake was notably higher (~50%) than Maricopa's (~30%), so AZ-06 speed-up may be more pronounced than in Maricopa-only districts. Article also carries a July 31 correction: Pima had a manual sifting problem with one drop box per polling place during early voting (not primary night); operationally this may recur in November unless the county changes drop-box configuration ahead of Nov 3. Cochise, Graham, Greenlee, and Pinal county rollout not confirmed by the article; check county recorder pages before the general."
+      },
+      {
         "id": "rule-az06-return",
         "topic": "Ballot return rules",
         "currentRule": "Mail ballots must be received (not postmarked) by 7:00 PM on election day by the county recorder. Primary receipt deadline: July 21 at 7 PM. General: November 3 at 7 PM.",
@@ -783,6 +813,20 @@
     ],
     "UPDATES": [
       {
+        "id": "upd-az06-id-verify",
+        "title": "Optional ID-verify lane at mail-ballot drop-off added to RULES",
+        "fieldChanged": "RULES",
+        "oldValue": "No dashboard entry described the optional ID-verify drop-off lane.",
+        "newValue": "Added rule-az06-id-verify-drop-off documenting the optional lane that lets voters dropping off a mail ballot at a polling place present a driver's license, passport, or similar photo ID to bypass signature verification. Origin: 2024 Arizona bipartisan election-timeline legislation. First large-scale use in the July 21, 2026 primary: more than 6,000 Pima County voters (~50% of Election Day drop-offs) used the option. Pima runs two separate lines on Election Day (in-person voting line vs. ID-verify drop-off line). Also added src-votebeat-az source. AZ-06 covers Pima plus Cochise, Graham, Greenlee, and part of Pinal; the option is available statewide by law but article-confirmed county rollout is Pima-only.",
+        "sourceIds": [
+          "src-votebeat-az"
+        ],
+        "detectedAt": "2026-08-05T18:10:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
         "id": "upd-001",
         "title": "AZ primary date moved to July 21 — new law signed Feb 6, 2026",
         "fieldChanged": "Primary election date",
@@ -887,6 +931,16 @@
       }
     ],
     "NEWS": [
+      {
+        "id": "news-az06-id-verify-2026-07-30",
+        "headline": "New ballot drop-off option proves popular in primary, potentially leading to faster election results",
+        "sourceName": "Votebeat Arizona",
+        "url": "https://www.votebeat.org/arizona/2026/07/30/maricopa-pima-counties-id-verify-popular-voters-faster-election-results-2026/",
+        "publishedAt": "2026-07-30",
+        "relevanceSummary": "In the July 21, 2026 primary, more than 6,000 Pima County voters — roughly half of those who dropped off a mail ballot on Election Day — used Arizona's new optional 'ID-verify' lane at drop-off, presenting a driver's license, passport, or similar photo ID instead of relying on later signature verification. Because Pima County contains most of AZ-06's voters, any AZ-06 Pima voter dropping off a mail ballot on Election Day can use the option; Pima County ran two separate Election Day lines (in-person vs. ID-verify drop-off), distinct from Maricopa County's combined-line approach. Pima County Recorder Gabriella Cázares-Kelly finished signature verification around 2 p.m. the Wednesday after the primary. Rollout in AZ-06's other counties (Cochise, Graham, Greenlee, Pinal) was not confirmed by the article and should be checked. Reporting also flags a caveat: the primary was low-turnout, so November lines at drop-off locations may be materially longer than voters saw in July.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
       {
         "id": "news-016",
         "headline": "AZ-06 general set: Ciscomani (R) and Mendoza (D) both advanced unopposed on July 21",
