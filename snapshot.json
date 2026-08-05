@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-29",
-  "updatedAt": "2026-07-29T06:27:12.364Z",
-  "exportedAt": "2026-07-29T06:52:32.018Z",
+  "dataAsOf": "2026-08-05",
+  "updatedAt": "2026-08-05T06:23:09.518Z",
+  "exportedAt": "2026-08-05T06:46:17.324Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -1206,20 +1206,70 @@
         "relevanceSummary": "This guide explains the new Arizona law that permanently moves the statewide primary to the second-to-last Tuesday in July, lists the July 21, 2026 primary date, early voting start (June 24), and the voter registration deadline (June 22), along with basic info on AZ-06’s primary candidates, all of which are core election procedures for AZ-06 voters.[7]",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-09f1cwr",
+        "headline": "High court says public comment on Arizona elections manual is not required",
+        "sourceName": "Arizona Mirror",
+        "url": "https://azmirror.com/briefs/high-court-says-public-comment-on-arizona-elections-manual-is-not-required/",
+        "publishedAt": "2026-07-26",
+        "relevanceSummary": "The Arizona Supreme Court clarified that the Secretary of State is not legally required to provide a public comment period when updating the statewide Election Procedures Manual, which governs how counties and local officials administer voting, ballots, and election procedures across Arizona.[4] This affects AZ-06 voters because any future changes to rules on mail ballots, drop boxes, voter ID, and polling place administration can be adopted without a formal public comment process.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-07r2t3q",
+        "headline": "Arizona election results: Latest on primary races for House, governor",
+        "sourceName": "USA TODAY",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/07/22/arizona-primary-election-results/90943218007/",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "This statewide results article confirms that in AZ-06, incumbent Rep. Juan Ciscomani and Democrat JoAnna Mendoza each won their party’s primary uncontested, setting the general-election candidate lineup for November.[13] Knowing these certified outcomes matters for AZ-06 voters tracking which candidates successfully qualified through the primary process.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-028n32h",
+        "headline": "Decision 2026: Complete coverage of the primary elections in Arizona",
+        "sourceName": "News 4 Tucson",
+        "url": "https://www.youtube.com/watch?v=deEJsrZQT0w",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "This local TV coverage explains primary-day logistics such as drop boxes and voting centers remaining open until 7 p.m., and clarifies that voters in line by 7 p.m. will still be allowed to vote.[5] These operational rules for polling locations and ballot drop boxes are part of statewide procedures that directly govern how AZ-06 voters cast and return ballots.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0exaztl",
+        "headline": "Arizona’s primary elections: Which US races to watch and why they matter",
+        "sourceName": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/7/21/arizonas-primary-elections-which-us-races-to-watch-and-why-they-matter",
+        "publishedAt": "2026-07-21",
+        "relevanceSummary": "This article highlights Arizona’s 6th Congressional District as a key U.S. House race and specifies statewide voting procedures such as poll opening at 6 a.m., closing at 7 p.m., and the rule that anyone in line by 7 p.m. may vote, with results not released until 8 p.m.[7] These polling-location and timing rules apply directly to AZ-06 voters in both primary and general elections.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-07mpfeu",
+        "headline": "Arizona primary tests Trump-backed candidates, Mamdani-style challenger",
+        "sourceName": "USA TODAY",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/07/20/arizona-congressional-primary-races/90946266007/",
+        "publishedAt": "2026-07-20",
+        "relevanceSummary": "This piece previews Arizona’s congressional primaries and outlines how voters across districts, including AZ-06, cast ballots to determine which candidates would appear on the November general-election ballot.[17] While focused on political dynamics, it documents the primary’s role in candidate selection and ballot access for U.S. House races.",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-29-az06-auto",
-      "startedAt": "2026-07-29T06:26:29.657Z",
-      "completedAt": "2026-07-29T06:27:12.364Z",
+      "id": "run-2026-08-05-az06-auto",
+      "startedAt": "2026-08-05T06:22:17.454Z",
+      "completedAt": "2026-08-05T06:23:09.518Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 18,
-      "updatesCreated": 6,
+      "sourcesChecked": 16,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-29 for AZ-06. Sources checked: 18. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-05 for AZ-06. Sources checked: 16. LLM verifications: 11. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-05T06:27:12.364Z",
+    "NEXT_REFRESH_AT": "2026-08-12T06:23:09.518Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
