@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-05",
-  "updatedAt": "2026-08-05T06:23:09.518Z",
-  "exportedAt": "2026-08-05T18:20:34.381Z",
+  "dataAsOf": "2026-08-12",
+  "updatedAt": "2026-08-12T05:26:31.246Z",
+  "exportedAt": "2026-08-12T05:45:45.425Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "third-party",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-12",
         "confidence": "medium"
       },
       "src-votebeat-az": {
@@ -1310,20 +1310,30 @@
         "relevanceSummary": "This piece previews Arizona’s congressional primaries and outlines how voters across districts, including AZ-06, cast ballots to determine which candidates would appear on the November general-election ballot.[17] While focused on political dynamics, it documents the primary’s role in candidate selection and ballot access for U.S. House races.",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ili0ne",
+        "headline": "Arizona secretary of state certifies primary results",
+        "sourceName": "KJZZ",
+        "url": "https://www.kjzz.org/elections/2026-08-06/arizona-secretary-of-state-certifies-primary-results",
+        "publishedAt": "2026-08-06",
+        "relevanceSummary": "Arizona’s secretary of state certifying the primary results confirms the official candidates heading into the November general election, which directly affects AZ-06 voters. This is statewide election administration news that also governs the district’s general-election ballot.",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-05-az06-auto",
-      "startedAt": "2026-08-05T06:22:17.454Z",
-      "completedAt": "2026-08-05T06:23:09.518Z",
+      "id": "run-2026-08-12-az06-auto",
+      "startedAt": "2026-08-12T05:25:49.403Z",
+      "completedAt": "2026-08-12T05:26:31.246Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 16,
-      "updatesCreated": 5,
+      "sourcesChecked": 20,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-05 for AZ-06. Sources checked: 16. LLM verifications: 11. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-12 for AZ-06. Sources checked: 20. LLM verifications: 11. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-12T06:23:09.518Z",
+    "NEXT_REFRESH_AT": "2026-08-19T05:26:31.246Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
