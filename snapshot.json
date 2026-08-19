@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:26:31.246Z",
-  "exportedAt": "2026-08-12T05:45:45.425Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T04:32:08.556Z",
+  "exportedAt": "2026-08-19T05:05:58.915Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -111,7 +111,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-07-03",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-cochise-elections": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -1320,20 +1320,100 @@
         "relevanceSummary": "Arizona’s secretary of state certifying the primary results confirms the official candidates heading into the November general election, which directly affects AZ-06 voters. This is statewide election administration news that also governs the district’s general-election ballot.",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0d43t67",
+        "headline": "Court rules proposed election-law changes can go to Arizona voters",
+        "sourceName": "Arizona Daily Star (tucson.com)",
+        "url": "https://tucson.com/news/state-regional/government-politics/elections/article_863711ec-f607-47a6-af68-31683e9bf004.html",
+        "publishedAt": "2026-08-19",
+        "relevanceSummary": "An Arizona court cleared Proposition 144 and other proposed election-law changes to appear on the November ballot, including allowing on-site tabulation of early ballots at polling places and permitting voters who drop off early ballots to present the same ID used for in-person voting, which could alter mail-ballot handling and ID practices statewide for AZ-06 voters.[14]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0cpmezr",
+        "headline": "Arizona school voucher reform measure likely won't reach voters",
+        "sourceName": "The Arizona Republic (azcentral.com)",
+        "url": "https://www.azcentral.com/story/news/politics/arizona-education/2026/08/18/arizona-voucher-overhaul-appears-headed-off-november-ballot/91262184007/",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "State officials informed the court that the printing deadlines for general election ballots and the voter publicity pamphlets are August 20, highlighting a key statewide cutoff that constrains what measures and candidate information can appear on November ballots that AZ-06 voters will receive.[12]",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0r9fmo9",
+        "headline": "Arizona Gov. Katie Hobbs vetoed 48% of election bills passed in 2026 session",
+        "sourceName": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2026/08/18/arizona-gov-katie-hobbs-vetoed-48-of-election-bills-passed-in-2026-session/",
+        "publishedAt": "2026-08-18",
+        "relevanceSummary": "This analysis reports that Gov. Katie Hobbs vetoed nearly half of the election-related bills passed in 2026 but signed measures including HB 2022, which moves Arizona’s primary election date to the penultimate Tuesday in July, changing the electoral calendar and affecting registration, early voting, and candidate qualification timelines for AZ-06 voters and candidates.[5]",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ynmuky",
+        "headline": "AZFEC: Maricopa County Primary Election Proves Prop 144 Will Speed Up Election Results",
+        "sourceName": "AZ Free News",
+        "url": "https://azfreenews.com/2026/08/azfec-maricopa-county-primary-election-proves-prop-144-will-speed-up-election-results/",
+        "publishedAt": "2026-08-15",
+        "relevanceSummary": "Coverage of the Maricopa County primary describes how on-site tabulation of early ballots envisioned by Proposition 144 performed in practice, suggesting faster election results and changes in how early ballots are processed and secured, which would affect election administration procedures in counties that include AZ-06 if the measure is approved.[11]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-05z7gqn",
+        "headline": "First time voting? Here’s how to cast a ballot in Arizona",
+        "sourceName": "Copper Courier",
+        "url": "https://coppercourier.com/news/elections/first-time-voting-arizona-ballot/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "A statewide primer for new voters details how to register in Arizona, choose between mail and in-person voting, join the early voter list, use ballot drop boxes, and the hours and basic procedures at voting locations, offering step-by-step election and ballot procedures that first-time AZ-06 voters can follow in November.[8]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0y9tvvy",
+        "headline": "How to vote early—by mail and in-person—in Arizona",
+        "sourceName": "Copper Courier",
+        "url": "https://coppercourier.com/news/elections/how-to-vote-early-arizona-2026/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "This guide explains Arizona’s early voting procedures, including deadlines to register, request mail ballots, and return them; how to use drop boxes and voting centers; and what identification documents are needed for early in-person voting, providing practical instructions that apply statewide to AZ-06 voters for the 2026 general election.[4]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-09oqx8x",
+        "headline": "Arizona 2026 election dates: voter registration deadline, early voting, and Election Day",
+        "sourceName": "Copper Courier",
+        "url": "https://coppercourier.com/news/elections/5-key-dates-to-know-in-arizonas-2026-midterm-elections/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "This statewide explainer lists key 2026 election dates for Arizona voters, emphasizing that mail ballots must be received—not just postmarked—by 7 p.m. on Election Day, and outlining options to return ballots via drop boxes or voting locations and the ID requirements for in-person voting, all of which directly govern how AZ-06 voters must cast and return ballots.[10]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0kan3ym",
+        "headline": "Judge rejects America First Legal's claim Fontes tried to mislead voters about Arizona Prop 144",
+        "sourceName": "KJZZ",
+        "url": "https://www.kjzz.org/elections/2026-08-13/judge-rejects-america-first-legals-claim-fontes-tried-to-mislead-voters-about-arizona-prop-144",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "A judge rejected a challenge alleging that Secretary of State Adrian Fontes misled voters about Proposition 144, a measure that would require all Arizona voters — including those voting by mail — to show identification when casting a ballot, clarifying the voter-ID implications of the proposal that AZ-06 voters will see on the November ballot.[15]",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-az06-auto",
-      "startedAt": "2026-08-12T05:25:49.403Z",
-      "completedAt": "2026-08-12T05:26:31.246Z",
+      "id": "run-2026-08-19-az06-auto",
+      "startedAt": "2026-08-19T04:31:08.854Z",
+      "completedAt": "2026-08-19T04:32:08.556Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 20,
-      "updatesCreated": 1,
+      "sourcesChecked": 18,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for AZ-06. Sources checked: 20. LLM verifications: 11. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-19 for AZ-06. Sources checked: 18. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:26:31.246Z",
+    "NEXT_REFRESH_AT": "2026-08-26T04:32:08.556Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
