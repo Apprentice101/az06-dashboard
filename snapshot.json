@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T04:32:08.556Z",
-  "exportedAt": "2026-08-19T05:05:58.915Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T04:35:41.975Z",
+  "exportedAt": "2026-08-26T05:13:52.994Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -111,7 +111,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-cochise-elections": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "third-party",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-26",
         "confidence": "medium"
       },
       "src-votebeat-az": {
@@ -1400,20 +1400,100 @@
         "relevanceSummary": "A judge rejected a challenge alleging that Secretary of State Adrian Fontes misled voters about Proposition 144, a measure that would require all Arizona voters — including those voting by mail — to show identification when casting a ballot, clarifying the voter-ID implications of the proposal that AZ-06 voters will see on the November ballot.[15]",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ffyou2",
+        "headline": "The 8 ballot propositions to know for Arizona's election",
+        "sourceName": "Axios Phoenix",
+        "url": "https://www.axios.com/local/phoenix/2026/08/25/statewide-ballot-measures-propositions-arizona-election-2026-",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "Axios explains that Prop 144 would amend the Arizona Constitution to require all voters, including mail voters, to show valid government ID before casting a ballot, and notes that the Arizona Supreme Court rejected a challenge to keep it off the ballot, giving AZ‑06 voters critical context about a potential tightening of voter‑ID requirements they will decide in November.[9]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0y3znru",
+        "headline": "Elections in Arizona continue as normal despite Supreme Court ruling",
+        "sourceName": "Arizona Republic (azcentral.com)",
+        "url": "https://www.azcentral.com/story/news/politics/elections/2026/08/24/az-elections-to-continue-as-normal-despite-supreme-court-ruling-mail-in-voting/91450655007/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "This article explains that Arizona election procedures, including mail‑in voting, will proceed as normal despite a U.S. Supreme Court ruling, with state officials emphasizing continuity in how ballots are requested, delivered, and counted—information directly affecting AZ‑06 voters’ expectations for November.[2]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ilz4ah",
+        "headline": "Fontes: SCOTUS mail-in voting decision doesn’t change general election",
+        "sourceName": "KNAU and Arizona News",
+        "url": "https://www.knau.org/knau-and-arizona-news/2026-08-25/fontes-scotus-mail-in-voting-decision-doesnt-change-general-election",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "Arizona Secretary of State Adrian Fontes informs voters that despite the recent U.S. Supreme Court decision on mail-in voting, Arizona’s vote‑by‑mail procedures and options remain unchanged for the 2026 general election, reassuring AZ‑06 voters that they can continue to use mail ballots as usual.[1]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-06zuaj6",
+        "headline": "Supreme Court ruling won't affect Arizona mail-in voting, Fontes says",
+        "sourceName": "Axios Phoenix",
+        "url": "https://www.axios.com/local/phoenix/2026/08/24/supreme-court-trump-executive-order-mail-ballots-arizona-fontes",
+        "publishedAt": "2026-08-24",
+        "relevanceSummary": "Axios reports that because a separate federal injunction remains in place, President Trump’s executive order to restrict mail ballot delivery cannot currently be enforced in Arizona, and Secretary of State Fontes says “nothing changes for Arizona's voters,” clarifying for AZ‑06 voters that mail‑ballot procedures and eligibility remain the same for now.[8]",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0cxzf9i",
+        "headline": "Supreme Court ruling on mail-in ballot order impacts little, Arizona officials say",
+        "sourceName": "Arizona Capitol Times",
+        "url": "https://azcapitoltimes.com/news/2026/08/24/supreme-court-ruling-on-mail-in-ballot-order-impacts-little-arizona-officials-say/",
+        "publishedAt": "2026-08-24",
+        "relevanceSummary": "Arizona officials, including Secretary of State Adrian Fontes, state that the Supreme Court’s decision lifting an injunction on new federal mail‑ballot rules does not alter Arizona’s mail‑in voting system, confirming that early ballots will still be mailed on schedule and that procedures for mail voters in AZ‑06 remain stable.[3]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0beo59p",
+        "headline": "Over 1,300 ballots never made it to voters in Navajo County. That isn’t unusual",
+        "sourceName": "KJZZ / Votebeat",
+        "url": "https://www.kjzz.org/elections/2026-08-22/over-1-300-ballots-never-made-it-to-voters-in-navajo-county-that-isnt-unusual",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "This report details how a portion of mailed ballots in Navajo County were returned undelivered because ballots cannot legally be forwarded and addresses change, highlighting for AZ‑06 voters statewide issues around maintaining current registration addresses to ensure receipt of early ballots.[4]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ggyk39",
+        "headline": "Eight Statewide Ballot Measures Set for Arizona's November Election",
+        "sourceName": "Arizona Medical Association (AZMED)",
+        "url": "https://www.azmed.org/eight-statewide-ballot-measures-set-for-arizonas-november-election",
+        "publishedAt": "2026-08-21",
+        "relevanceSummary": "The article summarizes Arizona’s eight November ballot measures, including Proposition 144, which would add new constitutional requirements for voter citizenship and identification for certain forms of voting, and reminds voters of the October 5 registration deadline and available registration methods—procedural information that applies directly to all AZ‑06 voters.[10]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0pja3ar",
+        "headline": "Here are the eight ballot measures Arizona voters will decide in November",
+        "sourceName": "Arizona Mirror",
+        "url": "https://azmirror.com/2026/08/19/here-are-the-eight-ballot-measures-arizona-voters-will-decide-in-november/",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "Arizona Mirror outlines the eight statewide ballot measures set for the November election following Arizona Supreme Court decisions, including measures that affect election administration and voter ID rules such as Prop 144, informing AZ‑06 voters about pending changes they may be asked to approve that would alter future voting procedures.[6]",
+        "tag": "ballot-access",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-az06-auto",
-      "startedAt": "2026-08-19T04:31:08.854Z",
-      "completedAt": "2026-08-19T04:32:08.556Z",
+      "id": "run-2026-08-26-az06-auto",
+      "startedAt": "2026-08-26T04:34:22.588Z",
+      "completedAt": "2026-08-26T04:35:41.975Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 18,
+      "sourcesChecked": 20,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for AZ-06. Sources checked: 18. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for AZ-06. Sources checked: 20. LLM verifications: 9. 7 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T04:32:08.556Z",
+    "NEXT_REFRESH_AT": "2026-09-02T04:35:41.975Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
