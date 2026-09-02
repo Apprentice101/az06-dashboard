@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T04:35:41.975Z",
-  "exportedAt": "2026-08-26T05:13:52.994Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T08:20:02.137Z",
+  "exportedAt": "2026-09-02T09:07:32.684Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "third-party",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "medium"
       },
       "src-votebeat-az": {
@@ -1480,20 +1480,100 @@
         "relevanceSummary": "Arizona Mirror outlines the eight statewide ballot measures set for the November election following Arizona Supreme Court decisions, including measures that affect election administration and voter ID rules such as Prop 144, informing AZ‑06 voters about pending changes they may be asked to approve that would alter future voting procedures.[6]",
         "tag": "ballot-access",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-02sqrke",
+        "headline": "Arizona Voter ID & Registration Deadline | Alto",
+        "sourceName": "Alto",
+        "url": "https://alto.gab.com/politics/voter-id/arizona",
+        "publishedAt": "2026-08-29",
+        "relevanceSummary": "This resource summarizes Arizona’s voter ID rules and registration deadlines, noting that voters must show identification (photo or non-photo) at the polls and that Arizona does not offer same-day registration, with a registration deadline 29 days before the election.[2] It is relevant to AZ-06 voters because it clarifies what ID they need, how provisional ballots work if they lack ID, and when they must be registered to vote in the November general election.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0yjrzht",
+        "headline": "How to register to vote in Arizona in 2026",
+        "sourceName": "The Copper Courier",
+        "url": "https://coppercourier.com/news/elections/how-to-register-to-vote-arizona/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "The Copper Courier provides step-by-step instructions on how Arizonans can register to vote, including eligibility requirements, online and mail registration options, accepted proof of citizenship, and what to expect after submitting a registration form.[4] AZ-06 voters can use this statewide guidance to ensure they are registered correctly and understand what identification documents they may need.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-05g46gn",
+        "headline": "USPS Ballot Mail Rule: Overview and Potential Impact",
+        "sourceName": "Congressional Research Service",
+        "url": "https://www.congress.gov/crs-product/IF13297",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "This CRS brief outlines the new USPS ballot mail rule requiring states to use envelopes with specific design standards and unique barcodes, and to submit voter data through a federal portal to send and track mail ballots.[9][13] AZ-06 voters using mail ballots are affected because these federal requirements, if implemented, could change envelope design, ballot tracking, and how election officials manage mail ballot lists.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-06wdndv",
+        "headline": "Arizona among states to secure order blocking Trump mail-in voting change",
+        "sourceName": "KJZZ",
+        "url": "https://www.kjzz.org/elections/2026-08-28/arizona-among-states-to-secure-order-blocking-trump-mail-in-voting-change",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "KJZZ reports that Arizona joined a multistate coalition that won a restraining order against part of President Trump’s executive order changing mail-in voting rules, specifically a USPS rule that would limit ballot delivery only to voters entered into a new federal portal.[14][1] This is directly relevant to AZ-06 voters because it temporarily prevents sudden changes to how their mail ballots are processed and delivered for federal elections.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0enubj3",
+        "headline": "Attorney General Mayes Secures Court Order to Protect Arizonans’ Right to Vote by Mail",
+        "sourceName": "Arizona Attorney General’s Office",
+        "url": "https://www.azag.gov/press-release/attorney-general-mayes-secures-court-order-protect-arizonans-right-vote-mail",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "This article explains that Arizona, along with other states, obtained a court order blocking parts of a new USPS rule that would have required states to register all mail voters in a federal portal and redesign ballot envelopes, which could have disrupted how mail ballots are sent and delivered for AZ-06 voters.[1][14] It matters because it preserves current mail-ballot procedures for the November election, avoiding new federal constraints on ballot delivery and envelope design.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0u17mym",
+        "headline": "State law would drop voters from automatic mail-ballot list starting 2027",
+        "sourceName": "Tucson Daily Brief",
+        "url": "https://tucsondailybrief.com/posts/2026-08-27.html",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "This newsletter summarizes that beginning in 2027, Arizona will remove voters from the automatic mail-ballot list if they do not consistently use their mailed ballots, with Pima County voters highlighted as an example.[12][5] AZ-06 voters are affected statewide because similar list maintenance rules apply in their counties, influencing whether they continue to receive early ballots automatically.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-04upxny",
+        "headline": "Hundreds of thousands of Arizonans could be removed from the mail voting list in 2027",
+        "sourceName": "Arizona Mirror",
+        "url": "https://azmirror.com/2026/08/27/hundreds-of-thousands-of-arizonans-could-be-removed-from-the-mail-voting-list-in-2027/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Arizona Mirror explains that a state law requires county recorders to remove voters from the permanent early voting list if they fail to return mail ballots in specified elections over two consecutive cycles, starting removals in 2027.[5][12] This matters to AZ-06 voters who rely on automatic mail ballots, because they must continue returning early ballots or respond to county notices to stay on the list and keep receiving ballots by mail in future elections.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0yez6n8",
+        "headline": "USPS finalizes mail-in voter ballot rule that would give law enforcement voter-linked data",
+        "sourceName": "Biometric Update",
+        "url": "https://www.biometricupdate.com/202608/usps-finalizes-mail-in-voter-ballot-rule-that-would-give-law-enforcement-voter-linked-data",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "Biometric Update describes the finalized USPS rule requiring states to upload each mail voter’s name, address, and associated barcode data into a federal portal, producing a participation list that links voters to outbound and return ballot barcodes.[13][11] This is relevant to AZ-06 because it affects privacy, ballot tracking, and the administrative steps Arizona officials must take to send and count mail ballots in federal elections, though parts of the rule are currently blocked in court.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-az06-auto",
-      "startedAt": "2026-08-26T04:34:22.588Z",
-      "completedAt": "2026-08-26T04:35:41.975Z",
+      "id": "run-2026-09-02-az06-auto",
+      "startedAt": "2026-09-02T08:18:39.918Z",
+      "completedAt": "2026-09-02T08:20:02.137Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 20,
+      "sourcesChecked": 18,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for AZ-06. Sources checked: 20. LLM verifications: 9. 7 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for AZ-06. Sources checked: 18. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T04:35:41.975Z",
+    "NEXT_REFRESH_AT": "2026-09-09T08:20:02.137Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
