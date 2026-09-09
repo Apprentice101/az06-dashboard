@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-02",
-  "updatedAt": "2026-09-02T08:20:02.137Z",
-  "exportedAt": "2026-09-04T01:19:16.501Z",
+  "dataAsOf": "2026-09-09",
+  "updatedAt": "2026-09-09T08:34:18.823Z",
+  "exportedAt": "2026-09-09T09:18:00.090Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-09",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -1582,20 +1582,100 @@
         "relevanceSummary": "Biometric Update describes the finalized USPS rule requiring states to upload each mail voter’s name, address, and associated barcode data into a federal portal, producing a participation list that links voters to outbound and return ballot barcodes.[13][11] This is relevant to AZ-06 because it affects privacy, ballot tracking, and the administrative steps Arizona officials must take to send and count mail ballots in federal elections, though parts of the rule are currently blocked in court.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0yeoluj",
+        "headline": "Fontes wants Arizona voters prepared for election misinformation",
+        "sourceName": "Arizona Capitol Times",
+        "url": "https://azcapitoltimes.com/news/2026/09/08/fontes-wants-arizona-voters-prepared-for-election-misinformation/",
+        "publishedAt": "2026-09-09",
+        "relevanceSummary": "Arizona Secretary of State Adrian Fontes highlights key 2026 general-election information, including voter-registration and early-ballot request deadlines, required identification for in‑person voting, ballot‑tracking tools, and mandatory logic-and-accuracy testing plus random hand-count audits of paper ballots—procedures that apply to all Arizona voters in AZ‑06.[3]",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0n5l2t7",
+        "headline": "Maricopa County cuts ballot to one page",
+        "sourceName": "KTAR News",
+        "url": "https://ktar.com/arizona-politics-news/election/maricopa-county-single-page-ballot-election",
+        "publishedAt": "2026-09-08",
+        "relevanceSummary": "Maricopa County, which includes part of AZ‑06, announces that November’s general‑election ballot will be reduced to a single page and that 254 countywide vote centers will be open with on‑demand ballot printing, with locations, hours, and real‑time wait times to be posted before early voting—information directly affecting how AZ‑06 voters will cast and navigate their ballots.[8]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-037ttfw",
+        "headline": "Arizona Voter Resources for the 2026 Election",
+        "sourceName": "TPAction",
+        "url": "https://www.tpaction.com/2026-voter-resources-arizona",
+        "publishedAt": "2026-09-07",
+        "relevanceSummary": "This statewide voter‑resource guide summarizes Arizona’s 2026 procedures for vote centers, mail ballots, and official ballot drop‑off locations in counties like Yuma, and outlines the availability of ballot drop boxes for the 2026 election, providing AZ‑06 voters with practical information on where and how they can cast or return ballots.[2]",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0x7jk0a",
+        "headline": "Court upholds Arizona ballot qualifying timeline for minor parties",
+        "sourceName": "Arizona Daily Star",
+        "url": "https://tucson.com/news/local/govt-and-politics/elections/article_a741d00b-e550-54b8-907e-e2a0ecc3353b.html",
+        "publishedAt": "2026-09-05",
+        "relevanceSummary": "An Arizona court decision preserves the existing timeline for minor political parties to qualify for the ballot, confirming the schedule under which such parties—and their candidates—can appear on the November general‑election ballot, affecting ballot‑access and candidate options for voters statewide, including AZ‑06.[15]",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0j73f0d",
+        "headline": "Ballot drop box coming to Oro Valley library parking lot",
+        "sourceName": "Tucson Daily Brief",
+        "url": "https://tucsondailybrief.com/posts/2026-09-05.html",
+        "publishedAt": "2026-09-05",
+        "relevanceSummary": "The Oro Valley Town Council approves installation of a 24/7 official ballot drop box at the Oro Valley library, to be operated by the Pima County Recorder from the start of early voting on October 7 through 7 p.m. on Election Day, expanding secure drop‑off options for nearby Arizona voters and illustrating county‑level drop‑box logistics relevant across districts including AZ‑06.[6]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0795i7k",
+        "headline": "60 Days, 60 Facts; Arizona Dot Vote election facts campaign launches",
+        "sourceName": "Gila Valley Central",
+        "url": "https://gilavalleycentral.net/60-days-60-facts-arizona-dot-vote-election-facts-campaign-launches",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "A statewide \"Arizona Dot Vote\" public‑information campaign highlights key dates for the 2026 general election, including the October 5 voter‑registration deadline, the October 7 start of early voting and mailing of early ballots, and November 3 as Election Day, timelines that apply to all Arizona voters in AZ‑06.[9]",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-08bgp99",
+        "headline": "Pima County Recorder Gabriella Cázares-Kelly talks mail-in voting and the fight to preserve voter rights in Arizona",
+        "sourceName": "AZPM News",
+        "url": "https://news.azpm.org/p/azpmnews/2026/9/4/231106-pima-county-recorder-gabriella-cazares-kelly-talks-mail-in-voting-and-the-fight-to-preserve-voter-rights-in-arizona",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "Pima County Recorder Gabriella Cázares‑Kelly explains Arizona’s \"ID verify\" process for late early ballots, where voters returning mail ballots close to Election Day can show identification at drop‑off to bypass signature verification, clarifying statewide mail‑ballot handling and ID alternatives relevant to AZ‑06 voters.[1]",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-066cgs9",
+        "headline": "Recorder Justin Heap promises speedy ballot signature verifications in November",
+        "sourceName": "Arizona Republic (syndicated via Headtopics)",
+        "url": "https://us.headtopics.com/news/recorder-justin-heap-promises-speedy-ballot-signature-87387056",
+        "publishedAt": "2026-09-04",
+        "relevanceSummary": "Maricopa County Recorder Justin Heap pledges that mail ballots dropped off on Election Day will have signatures verified the next day and explains a new option allowing voters who drop off early ballots at vote centers to bypass signature verification by showing ID, with those ballots tabulated like in‑person votes—changing mail‑ballot and ID procedures for AZ‑06 voters in the county.[4]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-02-az06-auto",
-      "startedAt": "2026-09-02T08:18:39.918Z",
-      "completedAt": "2026-09-02T08:20:02.137Z",
+      "id": "run-2026-09-09-az06-auto",
+      "startedAt": "2026-09-09T08:32:39.855Z",
+      "completedAt": "2026-09-09T08:34:18.823Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 18,
+      "sourcesChecked": 17,
       "updatesCreated": 8,
-      "conflictsCreated": 0,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-02 for AZ-06. Sources checked: 18. LLM verifications: 9. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-09 for AZ-06. Sources checked: 17. LLM verifications: 11. 4 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-09-09T08:20:02.137Z",
+    "NEXT_REFRESH_AT": "2026-09-16T08:34:18.823Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
