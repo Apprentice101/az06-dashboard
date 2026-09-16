@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-09",
-  "updatedAt": "2026-09-09T08:34:18.823Z",
-  "exportedAt": "2026-09-09T09:18:00.090Z",
+  "dataAsOf": "2026-09-16",
+  "updatedAt": "2026-09-16T09:02:13.360Z",
+  "exportedAt": "2026-09-16T09:49:31.795Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -1662,20 +1662,100 @@
         "relevanceSummary": "Maricopa County Recorder Justin Heap pledges that mail ballots dropped off on Election Day will have signatures verified the next day and explains a new option allowing voters who drop off early ballots at vote centers to bypass signature verification by showing ID, with those ballots tabulated like in‑person votes—changing mail‑ballot and ID procedures for AZ‑06 voters in the county.[4]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ss8wj7",
+        "headline": "Arizona Early Voting Locations Explained",
+        "sourceName": "TPAction",
+        "url": "https://www.tpaction.com/arizona-early-voting-locations-overview",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Explains how Arizona’s early voting locations work, including how to find a site, what identification is needed, and how to return early ballots, offering practical voter-resource information that AZ-06 voters can use when planning in-person or early voting.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-06oklwz",
+        "headline": "Arizona officials celebrate U.S. Supreme Court ruling to protect mail-in voting",
+        "sourceName": "KJZZ",
+        "url": "https://www.kjzz.org/politics/2026-09-15/arizona-officials-celebrate-u-s-supreme-court-ruling-to-protect-mail-in-voting",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Reports that Arizona election officials support the Supreme Court’s rejection of an effort to restrict mail-in voting, confirming that existing absentee ballot, drop-off, and signature procedures remain in effect for all Arizona voters, including those in AZ-06.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0596o7u",
+        "headline": "What big Supreme Court ruling on mail-in voting case means for Arizona",
+        "sourceName": "The Arizona Republic (azcentral)",
+        "url": "https://www.azcentral.com/story/news/politics/elections/2026/09/15/mail-in-voting-ruling-supreme-court-arizona/91780027007/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "Explains how a recent U.S. Supreme Court decision leaves Arizona’s existing mail-in ballot rules in place, meaning AZ-06 voters can continue using established absentee and early mail-voting procedures without new restrictions ahead of the November election.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-01howjm",
+        "headline": "Nearly 150000 Maricopa County Voters Receive Address Verification Notices",
+        "sourceName": "AZ Free News",
+        "url": "https://azfreenews.com/2026/09/nearly-150000-maricopa-county-voters-receive-address-verification-notices/",
+        "publishedAt": "2026-09-14",
+        "relevanceSummary": "Details that Maricopa County, which includes part of AZ-06, has sent address verification notices to nearly 150,000 voters and reiterates deadlines to request and return replacement mail ballots, directly affecting registration status and mail-voting logistics for AZ-06 residents.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-06zcv8q",
+        "headline": "Mail-in ballot rules spark voter confusion. Where do things stand?",
+        "sourceName": "USA TODAY",
+        "url": "https://www.usatoday.com/story/news/politics/2026/09/12/mail-in-ballots-already-sent-supreme-court/91691276007/",
+        "publishedAt": "2026-09-12",
+        "relevanceSummary": "Provides a national overview of changing mail-ballot rules and notes Arizona’s Secretary of State is monitoring court developments, helping AZ-06 voters understand that despite litigation, their state’s mail-in and return procedures currently stay the same.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0sk6jow",
+        "headline": "Live debate: Juan Ciscomani and Joanna Mendoza in District 6",
+        "sourceName": "Arizona Luminaria",
+        "url": "https://azluminaria.org/2026/09/10/live-debate-juan-ciscomani-and-joanna-mendoza-in-district-6/",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "Promotes an AZ-06 congressional debate and includes key procedural information such as voter registration deadlines, the start of early voting, and the November Election Day, offering district-specific election timelines that AZ-06 voters need to participate.",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0tmdw6t",
+        "headline": "Make pima.vote your election headquarters",
+        "sourceName": "Pima County",
+        "url": "https://www.pima.gov/394/Elections?contentId=b844e9e8-db34-4892-99ae-0622bf84961a",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "Highlights Pima County’s official election information hub, including ID-verified early ballot lists and localized election resources that are useful to AZ-06 voters residing in Pima County for checking ballot status and understanding county procedures.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0p0wfd2",
+        "headline": "Arizona First-Time Voter Guide 2026",
+        "sourceName": "TPAction",
+        "url": "https://www.tpaction.com/arizona-first-time-voter-information-2026",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "Provides a statewide guide for first-time Arizona voters covering registration, identification requirements, ballot tracking, and mail-in ballot steps, all of which apply to new and infrequent voters in AZ-06.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-09-az06-auto",
-      "startedAt": "2026-09-09T08:32:39.855Z",
-      "completedAt": "2026-09-09T08:34:18.823Z",
+      "id": "run-2026-09-16-az06-auto",
+      "startedAt": "2026-09-16T09:00:23.260Z",
+      "completedAt": "2026-09-16T09:02:13.360Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 17,
+      "sourcesChecked": 18,
       "updatesCreated": 8,
-      "conflictsCreated": 1,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-09 for AZ-06. Sources checked: 17. LLM verifications: 11. 4 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-09-16 for AZ-06. Sources checked: 18. LLM verifications: 11. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-16T08:34:18.823Z",
+    "NEXT_REFRESH_AT": "2026-09-23T09:02:13.360Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
