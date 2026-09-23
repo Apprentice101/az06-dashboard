@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:02:13.360Z",
-  "exportedAt": "2026-09-16T09:49:31.795Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:01:06.243Z",
+  "exportedAt": "2026-09-23T09:35:47.107Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -1742,20 +1742,60 @@
         "relevanceSummary": "Provides a statewide guide for first-time Arizona voters covering registration, identification requirements, ballot tracking, and mail-in ballot steps, all of which apply to new and infrequent voters in AZ-06.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ji5lcf",
+        "headline": "Southern Az election officials say ballot proposition guides being sent to voters by end of September",
+        "sourceName": "Tucson Sentinel",
+        "url": "https://www.tucsonsentinel.com/local/report/092226_prop_booklets/",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "Arizona election officials discuss proposition guides for the November ballot, including a proposed constitutional requirement for government-issued identification whether voting in person or by another method. The article notes uncertainty about how the proposed mail-voting ID requirement would operate, which is relevant to AZ-06 voters who vote by mail.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0xtz26r",
+        "headline": "Register by Oct. 5 to Vote in the Nov. 3 General Election",
+        "sourceName": "SanTanValley.com",
+        "url": "https://santanvalley.com/news/politics/politics/register-by-oct-5-november-3-general-election",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "The article gives Pinal County voters registration, early-ballot, drop-box, and return deadlines for the November 3 general election. It says registration must be completed by October 5, early voting begins October 7, and ballots must reach the county by 7 p.m. on Election Day; Pinal County is part of AZ-06.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-09yqsuo",
+        "headline": "Early voting starts Oct. 7 in the Nov. 3 general election",
+        "sourceName": "Tucson Sentinel",
+        "url": "https://www.tucsonsentinel.com/local/report/092026_political_calendar/",
+        "publishedAt": "2026-09-20",
+        "relevanceSummary": "The article outlines Pima County procedures for the November general election, including early voting and ballot mailing beginning October 7, the October 23 deadline to request an early ballot, and ballot drop-off guidance. Pima County includes communities in AZ-06, so these deadlines and logistics directly affect district voters there.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-042tllu",
+        "headline": "Voter ID, DEI and more: What to know about the 8 statewide ballot proposals",
+        "sourceName": "Arizona's Family",
+        "url": "https://www.azfamily.com/2026/09/16/voter-id-dei-more-what-know-about-8-statewide-ballot-proposals/",
+        "publishedAt": "2026-09-16",
+        "relevanceSummary": "Arizona voters, including those in AZ-06, would decide a proposal requiring government-issued identification for voting, including by mail, and requiring ballots to be tabulated at the voting location on Election Day. The measure would apply to elections held on or after January 1, 2028, if approved.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-az06-auto",
-      "startedAt": "2026-09-16T09:00:23.260Z",
-      "completedAt": "2026-09-16T09:02:13.360Z",
+      "id": "run-2026-09-23-az06-auto",
+      "startedAt": "2026-09-23T09:00:05.805Z",
+      "completedAt": "2026-09-23T09:01:06.243Z",
       "triggerType": "scheduled",
       "sourcesChecked": 18,
-      "updatesCreated": 8,
+      "updatesCreated": 4,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for AZ-06. Sources checked: 18. LLM verifications: 11. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for AZ-06. Sources checked: 18. LLM verifications: 11. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:02:13.360Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:01:06.243Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
