@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:01:06.243Z",
-  "exportedAt": "2026-09-23T09:35:47.107Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:10:22.071Z",
+  "exportedAt": "2026-09-30T10:35:45.684Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-09-02",
+        "lastVerified": "2026-09-30",
         "confidence": "medium"
       },
       "src-votebeat-az": {
@@ -1782,20 +1782,100 @@
         "relevanceSummary": "Arizona voters, including those in AZ-06, would decide a proposal requiring government-issued identification for voting, including by mail, and requiring ballots to be tabulated at the voting location on Election Day. The measure would apply to elections held on or after January 1, 2028, if approved.",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0bhh4yj",
+        "headline": "The 2026 Oro Valley election guide is here",
+        "sourceName": "Town of Oro Valley",
+        "url": "https://www.orovalleyaz.gov/Government/News/The-2026-Oro-Valley-election-guide-is-here",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The guide directs Pima County voters to resources for registering, requesting or returning a ballot, finding a vote center, and checking voting status. Oro Valley is outside AZ-06, but the county-level procedures are relevant under the statewide Arizona election-administration scope.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0gqedb4",
+        "headline": "Get Ready for the 2026 General Election",
+        "sourceName": "Town of Carefree",
+        "url": "https://www.carefree.org/article/3157494",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "Carefree's election guide announces a ballot drop box beginning October 7 and an in-person voting location opening October 23. These local logistics are relevant to AZ-06 voters who reside in the Carefree area of Maricopa County.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0bzs777",
+        "headline": "Prop. 144 Aims To Speed Up Arizona Election Results With On-Site Tabulation, Voter ID",
+        "sourceName": "AZ Free News",
+        "url": "https://azfreenews.com/2026/09/prop-144-aims-to-speed-up-arizona-election-results-with-on-site-tabulation-voter-id/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "Arizona voters will decide in November whether Proposition 144 requires a ballot-tabulation option at voting locations and government-issued identification for every voter, including mail voters. The measure would directly affect voting procedures in AZ-06 if approved.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0a3ingr",
+        "headline": "What Arizona voters should know about all 8 propositions",
+        "sourceName": "The Arizona Republic",
+        "url": "https://www.azcentral.com/story/news/politics/elections/2026/09/28/arizona-2026-ballot-8-voter-measures/91817502007/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "The statewide ballot-measure guide explains that Proposition 144 would require government-issued identification for all voters, including people voting by mail. Because AZ-06 voters will vote on the statewide proposition, the proposed rule change is directly relevant.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-03lprye",
+        "headline": "VOTER GUIDE: What to know about Arizona's 2026 election",
+        "sourceName": "ABC15 Arizona",
+        "url": "https://www.abc15.com/news/political/elections/voter-guide-what-to-know-about-arizonas-2026-election",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "Arizona voters, including those in AZ-06, can register until October 5, vote early beginning October 7, and return ballots by mail, drop box, or early-voting location. The article explains that voters dropping off an early ballot at a voting location may show valid ID to bypass the usual signature-verification process.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0b3pshf",
+        "headline": "What ID Do You Need to Bring to the Polls?",
+        "sourceName": "AARP",
+        "url": "https://www.aarp.org/government-elections/what-to-bring-to-vote/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "The Arizona section explains that voters may present government-issued photo identification or two non-photo documents showing identity and address, including utility bills, bank statements, and vehicle records. These in-person identification rules apply to AZ-06 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0cg6ou4",
+        "headline": "Maricopa County Issues Key Reminders Ahead Of November Election",
+        "sourceName": "AZ Free News",
+        "url": "https://azfreenews.com/2026/09/maricopa-county-issues-key-reminders-ahead-of-november-election/",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Maricopa County voters are reminded that registration closes October 5, early voting begins October 7, mail ballots must be signed, and ballots must be received by 7 p.m. on Election Day. The article also lists acceptable in-person ID documents and identifies county vote centers and drop-box options relevant to AZ-06 voters in Maricopa County.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-09xink9",
+        "headline": "Arizona secretary of state race reignites fight over election rules",
+        "sourceName": "Arizona's Family",
+        "url": "https://www.azfamily.com/2026/09/23/arizona-secretary-state-race-reignites-fight-over-election-rules/",
+        "publishedAt": "2026-09-23",
+        "relevanceSummary": "The article reports that a statewide ballot measure would require voter ID for Arizona elections, including mail voting, and notes the Secretary of State's role in voter registration, voting-device certification, election-result certification, and candidate certification. These statewide responsibilities apply to AZ-06 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-az06-auto",
-      "startedAt": "2026-09-23T09:00:05.805Z",
-      "completedAt": "2026-09-23T09:01:06.243Z",
+      "id": "run-2026-09-30-az06-auto",
+      "startedAt": "2026-09-30T10:09:25.165Z",
+      "completedAt": "2026-09-30T10:10:22.071Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 18,
-      "updatesCreated": 4,
+      "sourcesChecked": 19,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for AZ-06. Sources checked: 18. LLM verifications: 11. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for AZ-06. Sources checked: 19. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:01:06.243Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:10:22.071Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
