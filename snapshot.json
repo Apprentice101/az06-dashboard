@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-07",
-  "updatedAt": "2026-10-07T10:46:02.670Z",
-  "exportedAt": "2026-10-07T11:11:00.399Z",
+  "dataAsOf": "2026-10-14",
+  "updatedAt": "2026-10-14T09:11:44.259Z",
+  "exportedAt": "2026-10-14T09:30:37.943Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-07",
+        "lastVerified": "2026-10-14",
         "confidence": "medium"
       },
       "src-votebeat-az": {
@@ -1932,20 +1932,100 @@
         "relevanceSummary": "Summarizes statewide deadlines and procedures, including the October 27 mailing deadline and returning ballots to designated drop boxes or polling places by 7 p.m. on Election Day.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0fz1mhw",
+        "headline": "Arizona District 6 voter guide: Where Ciscomani, Mendoza ...",
+        "sourceName": "AZ Luminaria",
+        "url": "https://azluminaria.org/2026/10/13/arizona-district-6-voter-guide-where-ciscomani-mendoza-swing-stand/",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "This AZ-06-specific voter guide provides district-relevant election information, including the October 23 mail-ballot request deadline, recommended October 27 return date, Election Day information, and Pima County Recorder resources.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ahrk5u",
+        "headline": "Where to vote in Arizona: 2026 general election guide to voting locations and drop boxes",
+        "sourceName": "FOX 10 Phoenix",
+        "url": "https://www.fox10phoenix.com/election/where-vote-arizona-2026-general-election-guide-voting-locations-drop-boxes",
+        "publishedAt": "2026-10-13",
+        "relevanceSummary": "This statewide guide identifies voting-location and secure-drop-box procedures across Arizona’s counties, including early-voting schedules and ballot-return deadlines relevant to AZ-06 voters. It also confirms that early ballots were mailed October 7 and that voters should mail them by October 27.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0amdmdi",
+        "headline": "Ballots have been mailed ahead of Election Day - How to vote in person or by mail",
+        "sourceName": "KGUN 9",
+        "url": "https://www.kgun9.com/news/elections/ballots-have-been-mailed-ahead-of-election-day-how-to-vote-in-person-or-by-mail",
+        "publishedAt": "2026-10-12",
+        "relevanceSummary": "The Pima County-focused report tells AZ-06 voters that ballots were mailed October 7, early in-person voting is available, and mailed ballots should be returned by October 27. It also explains that ballots may be returned in person by 7 p.m. on Election Day at designated locations.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-05yy6in",
+        "headline": "Early voting has started in Arizona. Here’s what you need to know",
+        "sourceName": "ABC15 Arizona",
+        "url": "https://www.abc15.com/news/local-news/early-voting-has-started-in-arizona-heres-what-you-need-to-know",
+        "publishedAt": "2026-10-08",
+        "relevanceSummary": "The article covers statewide early voting and Maricopa County vote-center operations, including additional location openings, wait-time information, the October 23 mail-ballot request deadline, and ballot return options. It notes that showing ID when returning a mail ballot at a vote center can speed processing.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0j7xe67",
+        "headline": "Detailing the Arizona ballot measure that would require ID for mail ballots, change state constitution",
+        "sourceName": "KOLD News 13",
+        "url": "https://www.kold.com/2026/10/07/detailing-arizona-ballot-measure-that-would-require-id-mail-ballots-change-state-constitution/",
+        "publishedAt": "2026-10-07",
+        "relevanceSummary": "This statewide legal and ballot-access report explains a proposed Arizona constitutional change that would require identification for mail ballots, while clarifying that current law uses signature verification for early ballots and existing in-person ID rules. The issue directly concerns AZ-06 voters’ mail-voting requirements.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-02ysizs",
+        "headline": "When is early voting in Arizona?",
+        "sourceName": "The Arizona Republic",
+        "url": "https://www.azcentral.com/story/news/politics/elections/2026/10/07/early-voting-arizona/92083698007/",
+        "publishedAt": "2026-10-07",
+        "relevanceSummary": "This statewide guide gives AZ-06 voters the October 7–30 early-voting period, mail-ballot request and return dates, polling-location resources, and the option to return a mail ballot at a voting location on Election Day. It also describes Arizona’s new ID-verification option for in-person mail-ballot returns.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0i4i6vu",
+        "headline": "When will Arizona mail-in ballots be sent out?",
+        "sourceName": "The Arizona Republic",
+        "url": "https://www.azcentral.com/story/news/politics/elections/2026/10/07/arizona-mail-in-ballots/92083502007/",
+        "publishedAt": "2026-10-07",
+        "relevanceSummary": "The article explains Arizona’s mail-ballot process for the November 3 election, including the October 23 request deadline, recommended October 27 mailing date, and options to return ballots at official drop boxes, voting locations, or county election offices.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0bipaxa",
+        "headline": "How to vote in Arizona midterm elections 2026",
+        "sourceName": "The Arizona Republic",
+        "url": "https://www.azcentral.com/story/news/politics/elections/2026/10/07/arizona-midterm-elections-2026/92083860007/",
+        "publishedAt": "2026-10-07",
+        "relevanceSummary": "This statewide voting guide applies directly to AZ-06 voters and explains registration, early voting, mail-ballot request and return deadlines, drop-off options, and polling-location lookup. It states that registration ended October 5, mail ballots can be requested through October 23, and ballots should be mailed by October 27.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-07-az06-auto",
-      "startedAt": "2026-10-07T10:45:14.021Z",
-      "completedAt": "2026-10-07T10:46:02.670Z",
+      "id": "run-2026-10-14-az06-auto",
+      "startedAt": "2026-10-14T09:11:04.962Z",
+      "completedAt": "2026-10-14T09:11:44.259Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 18,
-      "updatesCreated": 7,
+      "sourcesChecked": 19,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-07 for AZ-06. Sources checked: 18. LLM verifications: 10. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-14 for AZ-06. Sources checked: 19. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-14T10:46:02.670Z",
+    "NEXT_REFRESH_AT": "2026-10-21T09:11:44.259Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
