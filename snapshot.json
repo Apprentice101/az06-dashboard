@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-21",
-  "updatedAt": "2026-10-21T09:02:32.625Z",
-  "exportedAt": "2026-10-21T09:20:28.786Z",
+  "dataAsOf": "2026-10-28",
+  "updatedAt": "2026-10-28T10:13:52.043Z",
+  "exportedAt": "2026-10-28T10:22:20.552Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "medium"
       },
       "src-votebeat-az": {
@@ -2092,20 +2092,100 @@
         "relevanceSummary": "Reports that Maricopa County voters who requested mail ballots but had not received them were urged to contact the Recorder’s Office for replacements. Voters could also submit ballots in person at county polling locations.",
         "tag": "ballot-access",
         "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0c7bcgt",
+        "headline": "Today is the deadline to mail back early ballots",
+        "sourceName": "KJZZ",
+        "url": "https://www.kjzz.org/elections/2026-10-27/today-is-the-deadline-to-mail-back-early-ballots",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "Arizona voters are advised to mail early ballots by Oct. 27 because county officials may count only ballots received by 7 p.m. on Election Day. Voters who miss the mailing deadline can return ballots through Nov. 3 at authorized polling locations, voting centers, or drop boxes.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-06gd9hl",
+        "headline": "Key dates and deadlines for Arizona's 2026 general election",
+        "sourceName": "KTAR News",
+        "url": "https://ktar.com/arizona-politics-news/election/2026-election-arizona-dates-deadlines",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "Arizona’s statewide election calendar lists Oct. 27 as the recommended final day to mail completed early ballots, Nov. 3 as Election Day, Nov. 9 as the first day counties may canvass returns, and Nov. 23 as the official statewide canvass.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0f0uk5n",
+        "headline": "630K ballots returned in Maricopa County, outpacing 2022, as mailing deadline arrives",
+        "sourceName": "Arizona’s Family",
+        "url": "https://www.azfamily.com/2026/10/27/turnout-tracker-630k-ballots-already-returned-maricopa-county/",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "Maricopa County voters must mail early ballots by Oct. 27 to help ensure receipt by the 7 p.m. Election Day deadline; voters who miss that date can use official drop boxes, early-voting centers, or vote in person. The county also has nearly 50 vote centers open during the final week and 254 Election Day polling centers.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0p12toz",
+        "headline": "Final Week of Early Voting in Mohave County",
+        "sourceName": "Mohave County",
+        "url": "https://www.mohave.gov/news-notices/posts/final-week-of-early-voting-in-mohave-county/",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "Mohave County’s election office states that regular early voting ends Oct. 30, identifies early-voting and indoor drop-box availability, and reminds voters that ballots must arrive by 7 p.m. Nov. 3. It also explains identification requirements for in-person voting and voluntary ID presentation when personally returning an early ballot.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-033ykg4",
+        "headline": "Transgender and Nonbinary Voters in Arizona: Know Your Rights",
+        "sourceName": "ACLU of Arizona",
+        "url": "https://www.acluaz.org/news/transgender-and-nonbinary-voters-know-your-rights/",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "The statewide voter-resource guide explains that Arizona requires valid identification at in-person polls but currently does not require ID when returning a ballot by mail or in person. It also describes ballot-return options, registration verification, and provisional ballots for voters unable to present accepted ID.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0ai5edp",
+        "headline": "What would Proposition 144 mean for voting by mail in Arizona?",
+        "sourceName": "The San Luis Obispo Tribune",
+        "url": "https://www.sanluisobispo.com/news/nation-world/national/article317745844.html",
+        "publishedAt": "2026-10-23",
+        "relevanceSummary": "The article explains that Arizona Proposition 144 would require identification to vote by mail and add existing identification provisions to the state constitution, while leaving lawmakers to determine implementation details. If approved, the measure could directly change mail-ballot procedures for AZ-06 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-0mmm0ak",
+        "headline": "GENERAL ELECTION (NOV 3, 2026): Cochise County reports",
+        "sourceName": "Cochise County",
+        "url": "https://www.cochise.az.gov/m/newsflash/Home/Detail/453",
+        "publishedAt": "2026-10-23",
+        "relevanceSummary": "Cochise County describes its required verification process for incoming early ballots and confirms that early ballots may be tabulated before Election Day, while results cannot be released until after 8 p.m. on Election Night. The county-level procedure is relevant as an example of Arizona election administration.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-az06-05hw2h8",
+        "headline": "When is the last day to vote? Here's what to know in Arizona",
+        "sourceName": "The Arizona Republic",
+        "url": "https://www.azcentral.com/story/news/politics/elections/2026/10/23/arizona-election-how-to-vote/92388605007/",
+        "publishedAt": "2026-10-23",
+        "relevanceSummary": "The statewide voter guide says early in-person voting ends Oct. 30, polls are open from 6 a.m. to 7 p.m. on Nov. 3, and voters in line by 7 p.m. must be allowed to vote. Early ballots must be received by 7 p.m. Election Day and can be delivered to a drop box, voting center, or polling place.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-21-az06-auto",
-      "startedAt": "2026-10-21T09:01:54.454Z",
-      "completedAt": "2026-10-21T09:02:32.625Z",
+      "id": "run-2026-10-28-az06-auto",
+      "startedAt": "2026-10-28T10:13:15.211Z",
+      "completedAt": "2026-10-28T10:13:52.043Z",
       "triggerType": "scheduled",
       "sourcesChecked": 18,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-21 for AZ-06. Sources checked: 18. LLM verifications: 10. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-28 for AZ-06. Sources checked: 18. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-28T09:02:32.625Z",
+    "NEXT_REFRESH_AT": "2026-11-04T10:13:52.043Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
