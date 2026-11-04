@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-28",
-  "updatedAt": "2026-10-28T10:13:52.043Z",
-  "exportedAt": "2026-10-28T10:22:20.552Z",
+  "dataAsOf": "2026-11-04",
+  "updatedAt": "2026-11-04T11:46:08.255Z",
+  "exportedAt": "2026-11-04T11:48:37.486Z",
   "districtCode": "AZ-06",
   "data": {
     "DISTRICT": {
@@ -75,7 +75,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "high"
       },
       "src-az-sos-early-voting": {
@@ -87,7 +87,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "high"
       },
       "src-az-voter-portal": {
@@ -135,7 +135,7 @@
         "sourceType": "official-county",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "high"
       },
       "src-pima-vote": {
@@ -220,7 +220,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 2,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "high"
       },
       "src-az-statutes-elex": {
@@ -232,7 +232,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "high"
       },
       "src-ballotpedia-az06": {
@@ -244,7 +244,7 @@
         "sourceType": "secondary",
         "hierarchyLevel": 4,
         "dateAccessed": "2026-05-26",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "medium"
       },
       "src-votebeat-az": {
@@ -2175,17 +2175,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-28-az06-auto",
-      "startedAt": "2026-10-28T10:13:15.211Z",
-      "completedAt": "2026-10-28T10:13:52.043Z",
+      "id": "run-2026-11-04-az06-auto",
+      "startedAt": "2026-11-04T11:46:01.901Z",
+      "completedAt": "2026-11-04T11:46:08.255Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 18,
-      "updatesCreated": 8,
+      "sourcesChecked": 24,
+      "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-28 for AZ-06. Sources checked: 18. LLM verifications: 9. 6 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-04 for AZ-06. Sources checked: 24. LLM verifications: 13. 6 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-04T10:13:52.043Z",
+    "NEXT_REFRESH_AT": "2026-11-11T11:46:08.255Z",
     "WEEKLY_REPORT": {
       "id": "wr-az06-2026-w25",
       "periodStart": "2026-06-03",
